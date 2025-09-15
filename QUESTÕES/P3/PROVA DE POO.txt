@@ -1,0 +1,109 @@
+PROVA DE POO
+
+1. O que é a plataforma Java?
+A) Um sistema operacional baseado em Linux
+B) Um ambiente de desenvolvimento e execução de aplicações multiplataforma
+C) Um banco de dados relacional
+D) Uma linguagem exclusivamente voltada para aplicações mobile
+
+2. O que é o paradigma imperativo?
+A) Um estilo de programação baseado em comandos sequenciais que alteram o estado do programa
+B) Um modelo onde as funções são tratadas como valores
+C) Uma técnica para representar o conhecimento por meio de lógica formal
+D) Um sistema baseado em objetos e suas interações
+
+3. O que é o paradigma de orientação a objetos?
+A) Um modelo baseado apenas em funções matemáticas
+B) Um modelo onde os programas são organizados em torno de objetos e classes
+C) Um paradigma baseado em regras lógicas
+D) Um modelo que não permite reuso de código
+
+4. O que é o paradigma funcional?
+A) Um estilo de programação baseado em comandos sequenciais
+B) Um estilo de programação que trata funções como cidadãos de primeira classe e evita estados mutáveis
+C) Um modelo onde a lógica é expressa através de objetos
+D) Um modelo voltado à execução paralela de processos
+
+5. O que é o paradigma lógico?
+A) Um modelo baseado na troca de mensagens entre objetos
+B) Um estilo de programação que utiliza apenas expressões matemáticas
+C) Um paradigma baseado em lógica formal e resolução de fatos e regras
+D) Um paradigma voltado à manipulação de dados via SQL
+
+6. O que é o paradigma concorrente?
+A) Um modelo que foca apenas em cálculos matemáticos
+B) Um paradigma que evita qualquer tipo de execução paralela
+C) Um estilo de programação que só permite execução sequencial
+D) Um paradigma que permite a execução de múltiplas tarefas simultaneamente
+
+7. O que é o paradigma scripting?
+A) Um paradigma que utiliza exclusivamente linguagens compiladas
+B) Um modelo de programação voltado a automação de tarefas e integração de sistemas
+C) Um tipo de programação voltada a desenvolvimento de sistemas operacionais
+D) Um estilo baseado apenas na manipulação de hardware
+
+8. Qual a diferença entre classe e objeto?
+A) Classe é o molde e objeto é a instância criada a partir desse molde
+B) Classe é um tipo de função e objeto é um tipo de variável
+C) Classe e objeto são sinônimos
+D) Objeto define comportamentos e classe é a execução desses comportamentos
+
+9. Qual a diferença entre atributo e método na programação orientada a objetos?
+A) Atributo executa ações e método armazena valores
+B) Atributo representa características e método representa comportamentos
+C) Método define tipos de dados e atributo define funções
+D) Atributos e métodos são sempre estáticos e não têm diferença prática
+
+10. O que é herança na programação orientada a objetos (POO)?
+A) A definição de variáveis locais em um escopo
+B) A troca de mensagens entre métodos
+C) O mecanismo que permite uma classe herdar características e comportamentos de outra classe
+D) A definição de funções anônimas em tempo de execução
+
+11. O que é polimorfismo na POO?
+A) A capacidade de criar classes com múltiplas heranças diretas
+B) A capacidade de objetos responderem de maneira diferente à mesma mensagem (método)
+C) A sobreposição de atributos com o mesmo nome
+D) A utilização de operadores sobrecarregados exclusivamente
+
+12. Qual a diferença entre JVM, JRE e JDK?
+A) JVM executa o bytecode, JRE contém a JVM e bibliotecas, e JDK inclui o JRE mais ferramentas de desenvolvimento
+B) JVM é a linguagem Java, JRE é o compilador e JDK é o interpretador
+C) JDK é a máquina virtual, JRE é o sistema operacional e JVM é o código-fonte
+D) Não há diferença, são nomes para a mesma ferramenta
+
+13. Qual a diferença entre Java SE, Java ME e Java EE?
+A) Java SE é a edição padrão, Java ME é voltada a dispositivos móveis e embarcados, e Java EE é voltada a aplicações corporativas
+B) Java SE é para servidores, Java ME para desktops e Java EE para web
+C) Java EE é usada apenas em bancos de dados
+D) Java ME é a versão mais recente do Java
+
+14. Quais são os tipos de dados primitivos do Java?
+A) String, Integer, Double, Boolean, List
+B) Number, Text, Char, Array, Boolean
+C) byte, short, int, long, float, double, char, boolean
+D) Integer, Float, Character, String, Boolean
+
+15. O que significa o comando System.out.println no Java?
+A) Define uma variável do tipo string
+B) Cria um novo objeto de saída padrão
+C) Exibe uma mensagem no console com quebra de linha
+D) Finaliza a execução do programa Java
+
+gabarito :
+1 - b
+2 - a
+3 - b
+4 - b
+5 - c
+6 - d
+7 - b
+8 - a
+9 - b
+10 - c
+11 - b
+12 - a
+13 - a
+14 - c
+15 - c
+

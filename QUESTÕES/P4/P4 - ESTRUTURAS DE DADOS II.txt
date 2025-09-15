@@ -1,0 +1,401 @@
+P4 - ESTRUTURAS DE DADOS II
+
+QUESTÕES 
+
+1. O que é pseudocódigo e qual sua principal finalidade?
+
+Resposta :
+Pseudocódigo é uma forma de descrever algoritmos utilizando uma linguagem intermediária entre a linguagem natural e a linguagem de programação. Sua finalidade é facilitar o entendimento da lógica de um programa antes da codificação.
+
+2. Qual das opções representa um pseudocódigo válido para somar dois números e exibir o resultado?
+
+a) int soma = a + b;
+b) soma ← a + b
+c) printf("soma");
+d) Start soma a b
+
+Resposta :
+b) soma ← a + b
+→ Usa a notação típica de pseudocódigo com a seta "←" para atribuição.
+
+3. Em pseudocódigo, o que representa a estrutura SE...ENTÃO...SENÃO?
+
+Resposta :
+Representa uma estrutura condicional, usada para executar diferentes comandos com base em uma condição lógica.
+
+4. Qual a principal diferença entre linguagens de alto nível e baixo nível?
+
+Resposta :
+Linguagens de alto nível são mais próximas da linguagem humana e fáceis de entender e programar. Já linguagens de baixo nível são mais próximas da linguagem de máquina, como o assembly, e exigem conhecimento técnico mais detalhado do hardware.
+
+5. Dê dois exemplos de linguagem de alto nível e dois de baixo nível.
+
+Resposta :
+Alto nível: Python, Java
+Baixo nível: Assembly, Linguagem de máquina (binária)
+
+6. Por que programadores preferem linguagens de alto nível na maioria dos projetos?
+
+Resposta :
+Porque são mais fáceis de escrever, ler e manter, além de oferecerem mais recursos de abstração e produtividade.
+
+7. O que é um vetor na programação?
+
+Resposta :
+É uma estrutura de dados unidimensional que armazena uma sequência de elementos do mesmo tipo, acessados por um índice.
+
+8. O que é uma matriz e como ela se diferencia de um vetor?
+
+Resposta :
+Uma matriz é uma estrutura de dados bidimensional, como uma tabela com linhas e colunas. Um vetor possui apenas uma dimensão.
+
+9. Como acessar o terceiro elemento de um vetor chamado numeros?
+
+Resposta :
+numeros[2]
+→ A contagem geralmente começa em 0, então o terceiro elemento está no índice 2.
+
+10. Escreva um pseudocódigo que preencha um vetor de 5 posições com números digitados pelo usuário.
+
+Resposta :
+
+Para i de 0 até 4 faça
+    Escreva("Digite um número:")
+    Leia(vetor[i])
+FimPara
+
+11. Analise o pseudocódigo abaixo e responda: qual será a saída se o usuário digitar o valor 4?
+
+Leia x
+se x > 5 então
+    Escreva("Maior que 5")
+senão
+    se x = 5 então
+        Escreva("Igual a 5")
+    senão
+        Escreva("Menor que 5")
+fimse
+
+Resposta :
+Saída: "Menor que 5"
+→ O valor 4 não é maior nem igual a 5, então entra no último senão.
+
+12. O pseudocódigo abaixo possui quantos laços de repetição aninhados?
+
+Para i de 1 até 5 faça
+    Para j de 1 até 3 faça
+        Escreva(i * j)
+    FimPara
+FimPara
+
+Resposta :
+2 laços aninhados
+→ Um Para dentro de outro, totalizando dois níveis de repetição.
+
+13. COMO DEVO INICIALIZAR UMA SOMA, MULTIPLICAÇÃO E UMA PALAVRA NO PSEUDOCÓDIGO ?
+
+RESPOSTA :
+SOMA = 0, MULTIPLICAÇÃO = 1 E A PALAVRA = " "
+
+14. QUAL A DIFERENÇA DE ARRAYS UNIDIMENSIONAL E BIDIMENSIONAIS ?
+
+RESPOSTA :
+UNI - LINHA ÚNICA, SÊQUENCIA LINEAR E ÚNICO ÍNDICE
+BIDI - DUAS DIMENSÕES ( COLUNA E LINHA )
+
+15. PARA QUE SERVE O " + " NO PSEUDOCÓDIGO ?
+
+RESPOSTA :
+PARA CONCATENAR ALGO ESCRITO E UMA VARIÁVEL
+
+16. Escreva um algoritmo em pseudocódigo que leia a altura e a largura de um retângulo. O programa deve calcular a área (altura * largura) e, em seguida, exibir o resultado na tela
+
+resposta :
+inicio 
+  altura, largura, area
+  escreva ("digite um valor para altura: ")
+  leia (altura)
+  escreva ("digite um valor 9para largura: ")
+  leia (largura)
+  area = altura * largura
+  escreva ("a area do triangulo é de: " + area)
+fim
+
+17. Crie um algoritmo em pseudocódigo que leia a idade de uma pessoa. O programa deve verificar se a pessoa tem 16 anos ou mais. Se for o caso, deve escrever "Você pode votar". Caso contrário, deve escrever "Você não pode votar";
+
+resposta :
+inicio 
+  idade = -1
+  escreva ("digite sua idade: ")
+  leia (IDADE)
+  SE IDADE >= 16
+    ESCREVA ("VOCÊ PODE VOTAR")
+    ESCREVA ("FIM DO PROGRAMA")
+  SENÃO
+    ESCREVA ("VOCÊ NÃO PODE VOTAR")
+    ESCREVA ("FIM DO PROGRAMA")
+  FIM SE
+FIM
+
+18. Escreva um algoritmo em pseudocódigo que leia 5 notas de um aluno e as armazene em um vetor. Em seguida, usando um laço de repetição, calcule a média aritmética dessas notas e mostre o resultado;
+
+RESPOSTA :
+INICIO
+  VETOR[5]
+  SOMA = 0, MEDIA, X
+  PARA X VARIANDO DE 1 ATÉ 5 FAÇA
+    ESCREVA("DIGITE A " + X + " NOTA : ")
+    LEIA(NOTAS[X])
+    SOMA = SOMA + NOTAS[X]
+  MEDIA = SOMA / 5
+   ESCREVA ("A MÉDIA É DE: " + MEDIA)
+FIM
+
+19. Crie um algoritmo que defina uma função chamada calcular_dobro que recebe um número como parâmetro e retorna o seu dobro. No corpo principal do programa, chame essa função, passando um número lido do usuário, e imprima o resultado;
+    
+RESPOSTA :
+CALCULAR_DOBRO(NUMERO)
+  RESULTADO = NUMERO * 2
+  RETORNE RESULTADO
+FIM
+
+INICIO 
+  LIDO, DOBRADO
+  ESCREVA("DIGITE UM NÚMERO: )
+  LEIA(LIDO)
+  DOBRADO = CALCULAR_DOBRO(LIDO)
+  ESCREVA("O DOBRO DE " + " É " + DOBRADO)
+FIM
+
+20. Um algoritmo pode ser definido como:
+a) Um programa de computador escrito em uma linguagem específica.
+b) Uma sequência bem definida e finita de instruções para resolver um problema.
+c) Um conjunto de regras sem fim para executar operações.
+d) Uma forma de linguagem de programação de alto nível.
+
+RESPOSTA : LETRA B 
+
+21. Entre os requisitos de um algoritmo, podemos destacar:
+a) Entrada, processamento, repetição infinita.
+b) Entrada, sequenciamento, saída.
+c) Sintaxe, hardware, compilação.
+d) Linguagem natural, pseudocódigo, fluxograma.
+
+RESPOSTA : LETRA B
+
+22. Qual das alternativas não é uma forma válida de expressar um algoritmo?
+a) Pseudocódigo
+b) Fluxograma
+c) Linguagem natural
+d) Protocolo de rede
+
+Resposta: LETRA D
+
+23. Um algoritmo que cumpre o objetivo para todas as entradas válidas apresenta qual característica?
+a) Simplicidade
+b) Corretude
+c) Modularidade
+d) Amigabilidade
+
+RESPOSTA : LETRA B
+
+24. A modularidade de um algoritmo consiste em:
+a) Dividir o problema em partes menores, desenvolvidas de forma independente.
+b) Garantir que o algoritmo sempre seja executado em tempo finito.
+c) Criar algoritmos simples e fáceis de entender.
+d) Medir a velocidade do algoritmo em função da entrada.
+
+RESPOSTA : LETRA A
+
+25. Um algoritmo que pode ser facilmente adaptado e modificado possui manutenibilidade. Já um algoritmo que é claro e fácil de entender possui:
+a) Modularidade
+b) Amigabilidade
+c) Simplicidade
+d) Corretude
+
+RESPOSTA : LETRA C
+
+26. Quando se afirma que um algoritmo ou software é amigável, isso significa que:
+a) Seu código é simples e matematicamente correto.
+b) Ele é fácil de ser usado pelo usuário final.
+c) O desempenho é melhor em sistemas escaláveis.
+d) É representado apenas por fluxogramas.
+
+RESPOSTA : LETRA B
+
+27. A complexidade de um algoritmo está relacionada a:
+a) Capacidade de dividir o problema em partes menores.
+b) Previsão de tempo de execução em função do tamanho da entrada.
+c) Facilidade de uso e interação com o usuário.
+d) Correção das saídas para entradas previstas.
+
+RESPOSTA : LETRA B
+
+28. Qual método pode ser utilizado para resolver sistemas lineares?
+a) Método de Cramer e Método de Gauss
+b) Método de Dijkstra e Método de Kruskal
+c) Método de Floyd e Método de Warshall
+d) Método de Huffman e Método de Shannon
+
+RESPOSTA : LETRA A
+
+29. Um sistema escalável é aquele que:
+a) Não se adapta a maiores cargas de trabalho.
+b) Sempre diminui sua performance ao aumentar a entrada.
+c) Pode ser expandido e retorna ao estado inicial quando o fluxo se normaliza.
+d) Garante sempre a execução no mesmo tempo, independente da entrada.
+
+RESPOSTA : LETRA C 
+
+30. O esforço computacional mede:
+
+a) Apenas a quantidade de linhas de código escritas.
+b) A quantidade de trabalho, tempo de execução e memória requerida. 
+c) Somente a quantidade de variáveis declaradas.
+d) Apenas o tamanho do vetor de entrada.
+
+RESPOSTA : LETRA B
+
+31. Sobre os métodos de análise de algoritmos, é correto afirmar que:
+
+a) O método empírico não precisa de implementação, apenas de fórmulas matemáticas.
+b) O método analítico depende do hardware utilizado.
+c) O método empírico requer implementar o algoritmo e testá-lo com diferentes entradas. 
+d) O método analítico sempre fornece resultados exatos, sem generalização.
+
+RESPOSTA : LETRA C
+
+32. Uma vantagem do método empírico é:
+
+a) Permitir previsão aproximada do desempenho.
+b) Não exigir programação antes dos testes.
+c) Oferecer resultados exatos que representam a realidade.
+d) Ser totalmente independente do software utilizado.
+
+RESPOSTA : LETRA C
+
+33. Na análise assintótica (método analítico), considera-se principalmente:
+
+a) Apenas o menor tempo de execução.
+b) O pior caso, pois mostra o cenário mais lento do algoritmo. 
+c) Somente a média de execuções observadas em testes.
+d) O hardware usado para rodar os experimentos.
+
+RESPOSTA : LETRA B
+
+34. No exemplo da ordenação por inserção, qual é o pior caso de entrada?
+
+a) Quando o vetor está vazio.
+b) Quando o vetor já está em ordem crescente.
+c) Quando o vetor está em ordem decrescente. 
+d) Quando o vetor tem apenas um elemento repetido.
+
+RESPOSTA : LETRA C 
+
+35. Na função soma_vet(vet[n], n), qual é a fórmula da complexidade?
+
+a) f(n) = 4
+b) f(n) = n²
+c) f(n) = 2n + 2 
+d) f(n) = n log n
+
+RESPOSTA : LETRA C
+
+36. Sobre o comando for, é correto afirmar que:
+
+a) O for não possui atribuição em nenhuma de suas linhas
+b) O for só executa comparações, nunca atribuições
+c) A linha de inicialização do for é uma atribuição, mas não entra no cálculo de complexidade
+d) Todas as linhas dentro do for possuem sempre complexidade constante
+
+RESPOSTA : LETRA C
+
+37. Em relação à complexidade, quando se fala em N + 1, significa que:
+
+a) O +1 é referente ao teste extra de parada do for
+b) O +1 significa que há uma atribuição a mais dentro do for
+c) O +1 sempre será descartado na notação Big-O
+d) O +1 representa a execução de todas as linhas internas
+
+RESPOSTA : LETRA A
+
+38. Sobre a diferença entre for e while:
+
+a) O for nunca possui atribuição, apenas testes
+b) O while é composto apenas por atribuições, nunca comparações
+c) O for tem atribuição na sua assinatura, enquanto o while só realiza testes de condição
+d) Ambos possuem exatamente a mesma estrutura de atribuição e testes
+
+RESPOSTA : LETRA C
+
+39. Considerando a notação Big-O, é correto dizer que:
+
+a) Termos menores, como constantes, são sempre descartados na análise assintótica
+b) O termo dominante pode ser descartado, pois não influencia na execução
+c) Big-O não analisa piores casos, apenas os melhores
+d) N e N² sempre possuem a mesma ordem de crescimento
+
+RESPOSTA : LETRA A
+
+40. Quando o número de execuções de um algoritmo é dado por N(N-1)/2, podemos concluir que:
+
+a) A complexidade é linear, pois envolve apenas multiplicação simples
+b) A complexidade é quadrática, pois o termo dominante cresce como N²
+c) A complexidade é constante, já que sempre termina em N-1
+d) A complexidade é logarítmica, pois reduz progressivamente
+
+RESPOSTA : LETRA B 
+
+41. Na análise de complexidade de um algoritmo, a notação Big O representa:
+
+a) O melhor caso de execução.
+b) O pior caso de execução.
+c) O caso médio de execução.
+d) O tempo constante sempre.
+
+resposta : letra b
+
+42. Qual é a complexidade de tempo de um algoritmo que percorre apenas um vetor com um laço for?
+
+a) O(1) – constante.
+b) O(n) – linear.
+c) O(n²) – quadrática.
+d) O(log n) – logarítmica.
+
+resposta : letra b 
+
+43. Em uma matriz quadrada n x n, ao utilizar dois laços for aninhados, a quantidade de operações cresce proporcionalmente a:
+
+a) n
+b) n + 1
+c) n²
+d) n log n
+
+resposta : letra c 
+
+44. Na análise assintótica, qual notação indica o melhor caso?
+
+a) Big O
+b) Ômega (Ω)
+c) Tetá (Θ)
+d) Ômega (Θ)
+
+resposta : letra b
+
+45. Dado o seguinte exemplo simplificado de uma matriz:
+
+para i = 1 até n  
+     para j = 1 até n  
+          b[i][j] = a[j][i]  
+
+
+Qual é a ordem de complexidade desse algoritmo?
+
+a) Linear – O(n)
+b) Quadrática – O(n²)
+c) Constante – O(1)
+d) Logarítmica – O(log n)
+
+resposta : letra b
+
+   

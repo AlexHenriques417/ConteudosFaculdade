@@ -1,0 +1,226 @@
+PROVA DE TÓPICOS DE INTERNET ( OPTATIVA ) 
+
+1. Qual é o principal objetivo da comunicação eficaz em um ambiente DevOps?
+
+A) Eliminar a necessidade de documentação
+B) Aumentar a velocidade de entrega de software
+C) Facilitar a colaboração entre as equipes
+D) Reduzir o número de bugs no código
+
+2. Como os silos de informação podem afetar negativamente as equipes de desenvolvimento e operações?
+
+a) Eles aumentam a produtividade
+b) Eles impedem o fluxo de informações e causam mal-entendidos
+c) Eles promovem a transparência entre as equipes
+d) Eles ajudam a proteger informações sensíveis
+
+3. Qual das opções a seguir é uma prática comum em DevOps para melhorar a comunicação diária entre as equipes?
+
+a) Analise estática
+b) Reunião de stand-up
+c) Análise de código
+d) Deploy contínuo
+
+4. Qual é o papel das retrospectivas nas práticas de comunicação de DevOps?
+
+a) Planejar o próximo ciclo de desenvolvimento
+b) Revisar o que funcionou e o que precisa ser melhorado
+C) Testar novas ferramentas de automação
+d) Distribuir tarefas de forma mais equitativa
+
+5. Qual é uma ferramenta comumente usada para comunicação contínua em equipes DevOps?
+
+a) GitHub
+b) Jenkins
+c) Slack
+d) Docker
+
+6. O que significa 'pair programming' e como ele contribui para a colaboração?
+
+a) Dois desenvolvedores trabalham juntos no mesmo código para melhorar a qualidade
+b) Uma técnica de gerenciamento de tempo para desenvolvedores
+c) Uma reunião entre desenvolvedores e operadores para discutir melhorias
+d) Um método para implantar o código mais rapidamente
+
+7. Como as barreiras culturais podem impactar a comunicação em um ambiente DevOps?
+
+a) Promovem inovação e novas ideias
+b) Aumentam a eficiência operacional
+c) Podem criar mal-entendidos e desconfiança entre as equipes
+d) Facilitam a adoção de novas ferramentas
+
+8. O que é 'swarming' em DevOps e como ele fortalece a colaboração?
+
+a) Uma técnica para distribuir tarefas entre equipes
+b) Um método de automação de testes
+c) Um processo onde toda a equipe se concentra em resolver um problema crítico juntos
+d) Uma estratégia para melhorar a documentação
+
+9. Por que é importante manter uma documentação clara e acessível em um ambiente DevOps?
+
+a) Para reduzir a necessidade de comunicação entre as equipes
+b) Para aumentar a velocidade de desenvolvimento
+c) Para promover a cultura de sigilo
+d) Para garantir que todos os membros da equipe tenham acesso às mesmas informações
+
+10. Qual é o impacto da transparência na colaboração entre equipes em DevOps?
+
+a) Diminui a eficiência geral
+b) Cria desconfiança entre os membros da equipe
+c) Facilita a colaboração e o alinhamento das metas
+d) Reduz a qualidade do código entregue
+
+11. IaC (Infraestrutura como Código) permite o controle de versão da configuração da infraestrutura, similar ao controle de versão do código fonte.
+
+Verdadeiro
+Falso
+
+12. Qual é o principal benefício de usar "Infraestrutura como Código" (IaC) em um ambiente DevOps?
+
+a) Reduz o custo de licenciamento de software.
+b) Melhora a interface de usuário dos sistemas legados.
+c) Facilita o provisionamento automático e consistente de ambientes.
+d) Aumenta a complexidade do gerenciamento de infraestrutura.
+
+13. Ao automatizar o monitoramento de um sistema, qual métrica é essencial para detectar problemas de desempenho proativamente?
+
+a) Tempo de Resposta
+b) Número de Novas Features
+c) Tamanho do Banco de Dados
+d) Número de Usuários Conectados
+
+14. No contexto de DevSecOps, qual é o principal motivo para incluir análises de segurança no pipeline de CI/CD?
+
+a) Reduzir o tempo de execução dos builds
+b) Detectar vulnerabilidades mais cedo no ciclo de desenvolvimento
+c) Aumentar o custo de desenvolvimento
+d) Facilitar o trabalho do time de suporte técnico
+
+15. Blue-Green Deployment é uma estratégia de automação de deploy que permite atualizações sem tempo de inatividade.
+
+Verdadeiro
+Falso
+
+16. Jenkins é uma ferramenta utilizada principalmente para automação de testes de segurança em aplicações.
+
+Verdadeiro
+Falso
+
+17. Em um pipeline CI/CD, qual etapa deve ser automatizada para garantir uma entrega contínua segura?
+
+a) Documentação
+b) Testes Unitários
+c) Análise de Segurança Estática de Código
+d) Aprovação Manual
+
+18. Automação de monitoramento com ferramentas como Prometheus e Grafana pode ajudar a identificar e resolver problemas antes que eles afetem os usuários finais.
+
+Verdadeiro
+Falso
+
+19. Qual das seguintes ferramentas NÃO é comumente usada para automação de configuração?
+
+a) Ansible
+b) Kubernetes
+c) Chef
+d) Puppet
+
+20. O uso de automação no pipeline CI/CD elimina completamente a necessidade de qualquer intervenção humana.
+
+Verdadeiro
+Falso
+
+21. O Grafana é capaz de integrar diferentes fontes de dados, como Prometheus e Elasticsearch, para criar dashboards centralizados.
+
+Verdadeiro
+Falso
+
+22. Qual das opções a seguir descreve melhor o papel do monitoramento no DevOps?
+
+a) Gerar logs de eventos para auditoria de conformidade.
+b) Permitir análise retrospectiva de falhas e resolução de incidentes.
+c) Fornecer insights somente sobre o desempenho de hardware.
+d) Monitorar desempenho em tempo real para fornecer feedback rápido e detectar problemas antes que afetem os usuários.
+
+23. Qual é a principal função do Prometheus em uma arquitetura de monitoramento DevOps?
+
+a) Coletar e armazenar métricas em séries temporais, com capacidade de alertar.
+b) Executar scripts automatizados em resposta a falhas de infraestrutura.
+c) Monitorar o desempenho de aplicações em tempo real com análise de traces.
+d) Agregar e visualizar logs de várias fontes.
+
+24. A pilha ELK (Elasticsearch, Logstash, Kibana) é usada principalmente para a análise e visualização de logs, mas não inclui funcionalidades de alertas.
+
+Verdadeiro
+Falso
+
+25. Ao usar o Grafana para visualização de dados, qual tipo de métrica seria ideal para monitorar a saúde de uma API?
+
+a) Utilização de memória no servidor.
+b) Número de requisições recebidas por segundo (RPS) e tempo de resposta.
+C) atência de rede entre servidores de banco de dados.
+d) Número de logs gerados por minuto
+
+26. O Prometheus pode ser usado para monitorar aplicações e infraestrutura, mas não oferece suporte para visualização de dados.
+
+Verdadeiro
+Falso
+
+27. A principal função do Nagios é o monitoramento de logs em tempo real e a geração de visualizações detalhadas.
+
+Verdadeiro
+Falso
+
+28. Qual das seguintes abordagens é considerada uma prática recomendada ao configurar alertas em sistemas de monitoramento?
+
+a) Priorizar a definição de limiares de alertas com base no impacto no usuário final.
+b) Desativar alertas fora do horário comercial para evitar falsos positivos.
+c) Configurar alertas apenas para falhas críticas no sistema.
+d) Definir alertas para qualquer variação mínima nos dados.
+
+29. Monitoramento proativo no DevOps visa apenas corrigir falhas depois que elas já ocorreram no sistema.
+
+Verdadeiro
+Falso
+
+30. O que distingue a pilha ELK (Elasticsearch, Logstash, Kibana) de outras ferramentas de monitoramento?
+
+a) Capacidade de alertar automaticamente sobre falhas de hardware.
+b) Monitoramento exclusivo de métricas de infraestrutura.
+c) Integração nativa com Kubernetes para monitoramento de contêineres.
+d) Coleta, processamento e visualização de logs em tempo real.
+
+GABARITO
+1 - C
+2 - B
+3 - B
+4 - B
+5 - C
+6 - A
+7 - C
+8 - C
+9 - D
+10 - C
+11 - VERDADEIRO
+12 - C
+13 - A
+14 - B
+15 - VERDADEIRO
+16 - FALSO
+17 - C
+18 - VERDADEIRO
+19 - B
+20 - FALSO
+21 - VERDADEIRO
+22 - D
+23 - A
+24 - FALSO
+25 - B
+26 - VERDADEIRO
+27 - FALSO
+28 - A
+29 - FALSO
+30 - D
+
+
+

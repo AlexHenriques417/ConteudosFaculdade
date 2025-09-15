@@ -1,0 +1,310 @@
+P3 - POO
+
+UNIDADE I
+
+1. O QUE É O JAVA ?
+UMA LINGAUGEM DE PROGRAMAÇÃO DE ALTO NÍVEL QUANTO UMA PLATAFORMA DE DESENVOLVIMENTO DE SISTEMAS, É ORIENTADA A OBJETOS, É MULTIPLATAFOMA, PORTÁVEL, ROBUSTA, SEGURA, INTERPRETADA E DISTRIBÚIDA
+
+2. QUAIS SÃO OS TÓPICOS ESSENCIAS PARA SE CONSTRUIR UM SOFTWARE DE GRANDE PORTE ?
+TEMPO GASTO
+CÓDIGO ORGANIZADO
+SE PODE REAPROVEITAR O CÓDIGO
+COMO SERÃO FEITOS OS TESTES
+COMO SÃO TRATADOS OS BUGS
+A MANUTENÇÃO
+
+3. O QUE É UM PARADIGMA ?
+ALGO QUE SERVE DE EXEMPLO DE MODELO OU PADRÃO
+
+4. QUAL O CONCEITO DE PARADIGMA ?
+CONJUNTO DE CARACTERÍSTICAS QUE JUNTAS, DETERMINA A VISÃO QUE O PROGAMADOR POSSUI A ESTRUTURAÇÃO E A EXECUÇÃO DO PROGRAMA
+
+5. QUAIS SÃO OS 5 TIPOS DE PARADIGMAS ?
+IMPERATIVO, ORIENTAÇÃO A OBJETOS, FUNCIONAL, LÓGICO, CONCORRENTE E SCRIPTING
+
+6. O QUE É O PARADIGMA IMPERATIVO ?
+uso de comandos, variáveis e procedimentos, as primeiras linguagens de programação são deste paradigma
+
+7. o que é o paradigma de orientação a objeto ?
+uso de classes, objetos, herança, polimorfismo, maior abstração de dados e encapsulamento
+
+8. o que é o paradigma funcional ?
+uso de expressões e funções, ausência de variáveis e comandos
+
+9. o que é o paradigma lógico ?
+relações lógicos entre entradas e saídas, asserções
+
+10. o que é o paradigma concorrente ?
+execução concorrente de processos, abstração de controle de sincronização
+
+11. o que é o paradigma de scripting ?
+sistema de tipos dinâmica, abstração de processamento de strings, suporte a interfaces gráficas
+
+12.quais são 8 pilares do poo ?
+classe, objetos, herança, polimorfismo, encapsulamento, abstração, métodos, atributos
+
+13. o que são classes ?
+são modelos de um objeto, possuindo características e comportamentos
+
+14. o que é objeto ?
+é algo do mundo real especifico que possa ter atributo e método
+
+15. o que é atributo ?
+são características do objeto
+
+16. o que é método ?
+são comportamentos do objeto
+
+17. o que é herança ?
+passa para a próxima geração igual para os "filhos"
+
+18. o que é polimorfismo ?
+os mesmos atributos e métodos podem ser utilizados em objeto distintos, porém, com implementações lógicas diferentes
+
+19. o que é encapsulamento ?
+é uma forma de proteger parte dos dados e comportamentos independente do restante do sistema
+
+20. o que é abstração ?
+processo pelo qual conceitos gerais são formulados a partir de conceitos específicos e detalhes são ignorados
+
+21. quais as vantagens da poo ?
+abstração de dados 
+compatibilidade
+redução de complexidade
+reuso de software
+extensibilidade
+manutenibilidade
+reuso de software
+extensibilidade
+manutenibilidade
+
+22. quais os 3 componentes essencias para o funcionamento do java ?
+jvm
+jre
+jdk
+
+23. o que é o jvm ?
+responsável por executar o código java compilado, interpreta e otimiza a execução do bytecode na máquina real, gerencia a memória
+
+24. o que é jre ?
+conjunto de ferramentas que permite rodar aplicações java, inclui jvm + bibliotecas, não contém ferramentas de desenvolvimento
+
+25. o que é o jdk ?
+conjunto completo para desenvolvimento de aplicações java, contém o jre + compilador + ferramentas de desenvolvimento, esencial para programadores, pois permite escrever, compilar e testar o código java
+
+26. explique as 5 fases do fluxo de execução em java ?
+fase i - consiste em editar um arquivo com código em java e salvá-lo com exetnsão .java
+fase ii - comando javac compila o programa, o compilador java traduz ( .java => .class )
+fase iii - carrega o programa na memória antes de ser executado, carregador de classes, pega o arquivo .class que contém os bytecodes
+fase iv - o verificador assegura que os bytecodes são válidos e não violam as restrições de segurança java
+fase v - a jvm máquina virtual java ( interpretador ) interpreta ( em tempo de execução ) o programa, realizando assim a ação especificada pelo programa
+
+27. o que é java se ?
+inclui bibliotecas para manipulação de coleções, entrada/saída, redes e concorrência, utilizado para aplicações desktop, sistemas backend e desenvolvimento geral, contém a jvm e jdk
+
+28. o que é java ee ?
+inclui tecnologias como servlets, jsp, jpa, ejb e web services, focado em aplicações escaláveis e distribuídas, suporte para integração com banco de dados e segurança avançada
+
+29. o que é java me ?
+versão otimizada do java para dispositivos com recursos limitados, utilizado em dispositivos móveis, iot, sistemas embarcados, tvs digitais, baseado em perfis e configurações leves, como cldc e cdc
+
+30. quantas palavras reservadas o java possui ?
+53
+
+31. quais as palavras reservadas dos modificadores de acesso ?
+public, private, protected
+
+32. quais as palavras reservadas dos modificadores de classe e método ?
+abstract, class, extends, final, implements, interface, native, new, static, strictfp, super, synchronized, transient, volatile
+
+33. quais as palavras reservadas do controle de fluxo ?
+if, else, switch, case, default, while, do, for, break, continue, return, throw, try, catch, finally, assert
+
+34. quais as palavras reservadas dos tipos primitivos ?
+boolean, byte, char, double, float, int, long, short, void
+
+35. quais as palavras reservadas dos pacotes e importação ?
+import, package
+
+36. quais as palavras de manipulação de exceções ?
+throws, throw, try, catch, finally
+
+37. quais as palavras reservadas de controle de concorrência ?
+synchronized, volatile
+
+38. quais as palavras reservadas para o uso futuro ?
+goto, const
+
+39. quais as palavras para outras coisas ?
+instanceof, enum, this, super, extends, implements
+
+40. como é feito os comentários em java ?
+Comentário de linha:
+//isto é um comentário e inicia com duas barras.
+int valor; // e pode estar no final da linha
+
+Comentário de bloco:
+/* Comentário em bloco
+Aceita múltiplas linhas
+Não utilize comentários aninhados
+*/
+
+41. o que é javadoc ?
+Javadoc: É tipo especial de comentário, utilizado para gerar documentação da
+API do código Java.
+
+/** isto é um comentário
+* para geração de
+* documentação via javadoc
+*/
+
+42. o qie é identificadores e como usar ?
+São usados para determinar nomes de variáveis, atributos de
+classe ou instância, parâmetros e métodos
+Em Java, os identificadores devem ser iniciados com:
+• uma letra;
+• um sublinhado (_);
+• um caractere especial de dólar "$";
+Podem conter números após o primeiro caractere;
+
+43. o java é case sensitive ?
+sim
+
+44. como funciona as convenções dos identificadores ?
+Constantes com todas as letras em maiúsculo: CONSTANTE
+Variáveis e métodos começam com letra minúscula: variável
+Classes e interfaces começam com letra maiúscula: Classe
+
+45. o que é uma convenção de uso ?
+se o identificador for um nome composto, cada nova palavra começa com letra maiúscula
+
+46. qual a maior diferença entre char e string ?
+• O tipo char é sempre representado por aspas simples (‘h’);
+• Caracteres representados por aspas duplas (“h”) na verdade
+
+47. quais são os tipos primitivos de java ?
+byte, short, int, long, float, double, char e boolean
+
+48. qual a diferença de string vazia e string nula ?
+String nome; ----- String que não foi inicializada, terá valor nulo.
+nome =“  ”; -----  String vazia.
+nome=“Java”; ----- String inicializada com valor “Java”.
+
+48. quais são os tipos wrappers ?
+são classes que representam os tipos primitivos, São imutáveis, o que significa que uma vez criado um objeto wrapper, seu valor não pode ser alterado para garantir a segurança. Os tipos primitivos não são objetos, mas às vezes é necessário trabalhar com eles como se fossem.
+
+49. o que é método de conversão ?
+permitem a conversão de tipos primitivos para objetos e vice-versa.
+
+• Exemplo: o método valueOf() pode ser usado para converter um tipo primitivo
+em um objeto equivalente, enquanto o método intValue() pode ser usado para
+converter um objeto Integer em um tipo primitivo inteiro
+
+50. o que é o método de parsing ?
+permitem a conversão de strings em tipos primitivos
+equivalentes e são úteis quando você precisa ler dados de uma fonte externa e convertê-los em tipos primitivos
+
+51. qual a diferença da conversão de tipos implícitos e explícitos ?
+i - É feita automaticamente pelo compilador da linguagem não sendo necessário
+nenhum tipo de demarcação
+e - É feita por meio de uma expressão de conversão de tipos
+
+52. explique as constantes ?
+• Em Java, constantes são variáveis cujo valor não pode ser alterado após a atribuição.
+• São definidas usando a palavra-chave final.
+• Por convenção, os nomes de constantes são escritos em CAIXA ALTA.
+
+53. quais os benefícios das constantes ?
+Promove um mais legível, compreensível e reutilizável e evitam "números mágicos“ ou “chumbados” no código
+Evitam erros acidentais de alteração
+Facilitam reutilização e consistência
+
+54. como deve ser considerado um método ?
+1. O que a função retornará ao ponto em que foi chamada
+2. O seu nome
+3. Os parâmetros que receberá
+
+55. o que é a classe scanner ?
+É uma classe do Java, que nos permite inserir valores.
+Ela tem métodos que nos permite inserir diferentes tipos de dados.
+
+56. qual o nome da biblioteca para usar a classe scanner ?
+import java.util.scanner;
+
+57. o que deve usar na criação do objeto do scanner ?
+system.in
+
+58. quais os métodos disponiveis para a classe scanner ?
+● nextByte() para ler um dado do tipo byte.
+● nextShort() para ler um dado do tipo short.
+● nextInt() para ler um dado do tipo int.
+● nextLong() para ler um dado do tipo long.
+● nextFloat() para ler um dado do tipo float.
+● nextDouble() para ler um dado do tipo double.
+● nextBoolean() para ler um dado do tipo boolean.
+● nextLine() para ler uma String até encontrar uma ruptura na linha.
+● next() Para ler uma string para o primeiro delimitador, geralmente até uma
+pausa em branco ou até uma linha.
+
+59. quais os tipos de operadores ?
+matemáticos, lógicos, relacionais
+
+60. quais são as estrutras de controle ?
+if, else, switch, for, while e do while
+
+UNIDADE II
+
+- o objeto possui algumas "propriedades" como : ações, características e datlhes com requisitos especiais
+
+- em todo paradigma devemos pensar : quais são os objetos, quais seus atributos e quais responsabilidades cada um tem
+
+- atributos : características distintas de um determinado objeto, que permite dar signficado a ele
+
+- métodos : comportamento dos objetos, permitem estabelecer como eles responderão quando interagirmos com eles, dependendo do contexto
+
+- construtor : criação de objetos que a partir da classe GERARÁ UM NOVO OBJETO
+
+- EXEMPLO :
+     - VAMOS DAR AO OBJETO VETERINÁRIO UM MÉTODO CONSTRUTOR :
+             - VETERINÁRIO (NOME: STRING, SOBRENOME: STRING, REGISTRO: STRING)
+
+    OBS : VETERNIÁRIO - SEMPRE TEM O MESMO NOME DA CLASSE
+    OBS : COLOCAMOS OS PARÊMETROS DE QUE PRECISAMOS nos paratenses
+
+- podemos construir diversos construtores
+
+- scanner x = new scanner();
+    - scanner : tipo
+    - x : atributo
+    - operador de atribuição
+    - new : instancia de um novo objeto (aloca memória)
+    - scanner () : FUNÇÃO DO MÉTODO DO OBJETO
+
+- DIAGRAMA DE CLASSES : MOSTRAR QUAIS CLASSES CONSTITUEM O SISTEMA E OS RELACIONAMENTOS ENTRE ELES
+
+- DRAWIO : SOFTWAR PARA DESENHO ONLINE
+     - UTILIZAR O UML
+   
+- EXEMPLO :
+     - VETEERINÁRIO (OBJETO)
+     - NOME : STRING (ATRIBUTO)
+     - SOBRENOME : STRING (ATRIBUTO)
+     - REGISTR0 : STRING (ATRIBUTO)
+     - RECEBERANIMAL() : VOID (MÉTODOS)
+     - CURAR() : VOID (MÉTODOS)
+     - FAZERDIAGNOSTICO() : VOID (MÉTODOS)
+
+- MODIFICADORES DE ACESSO :
+      - ALTERAM A FORMA DE USO DE CLASSES, MÉTODS E ATRIBUTOS
+      - PRIVATE, PROTECTED, PACKAGE, PUBLIC, STATIC, ABSTRACT, FINAL, SYNCHRONIZED, TRANSIENT, STRCTFP, VOLATIVE E NATIVE
+
+- ABSTRACT : 
+      - CLASSES E MÉTODOS
+      - CLASSES : NÃO PERMITEM INSTANCIAÇÃO E PODER CONTER MÉTODOS ABSTRATOS 
+      - MÉTODOS : NÃO PODE SER IMPLEMENTADOS
+
+- STATIC :
+      - ATRIBUTOS E MÉTODOS 
+      - TORNA O MÉTODO OU ATRIBUTO ACESSÍVEL ATRAVÉS DA CLASSE, SEM NECESSIDADE DE INSTÂNCIA
+      - PARA INDICAR QUE O MÉTODO OU ATRIBUTO É ESTÁTICO ELE PRECISA ESTAR SUBLINHADO
+

@@ -1,0 +1,75 @@
+AULA V - ESTRUTURAS DE DADOS
+
+- IMPORTANTE - VETORES E MATRIZES DE COLUNAS E LINHAS IGUAIS
+UM FOR -> N + 1
+DOIS FOR ( O SEGUNDO ) SERÁ -> N(N+1)
+DENTRO DO FOR SERÁ -1 -> N ( NA MAIORIA DAS VEZES É N )
+EXPRESSÕES NOMAIL -> 1 
+BIG 0 QUADRÁTICO -> n^2
+big 0 linear -> n
+
+- observação
+so repete mais de 1 vez se tiver em laço
+
+- se a matriz for números de linhas diferentes do que e colunas
+um for -> n + 1
+dois for ( o segundo ) será -> x(n + 1)
+dentro do for será -> n.x
+as demais expressões -> 1
+
+- notações
+big 0 - pior caso
+omega - melhor caso
+tetá - caso média
+
+- exemplo de linear
+
+soma_vetor(a[], n)                        
+total = 0;                                           1 vez
+para i variando de 1 ATÉ N        n + 1 vez
+     TOTAL = TOTAL = A[I]                 n vez
+RETURNE Valor                               1
+
+f(n) = 1 + n + 1 + n + 1
+f(n) = 2n + 3
+big 0 = 0(n) = linear
+
+- matrizes
+precisa de 2 for
+um controla a linha
+e outro contra a coluna
+
+- exemplo de matriz
+
+b[n][n]                                                           1 vez
+para i variando de 1 até n                  n + 1 vez
+      para j variando de 1 até n           n(n + 1) vez
+          b[i][j] = a [j][i]                               n.n ou n^2 vez
+retorne b[n][n]                                       1 vez
+
+f(n) = 1+n+1+n(n + 1) + n^2 + 1
+f(n) = 2n^2 + 2n + 3
+
+big 0 -> quadratica -> o(n^2)
+
+para testar :
+
+2.10^2 + 2.10 + 3
+2.100 + 20 + 3
+200 + 23
+233 
+
+- se for o número de colunas e linhas diferentes
+
+b[n][n]                                                           1 vez
+para i variando de 1 até n                  n + 1 vez
+      para j variando de 1 até x          x(n + 1) vez
+          b[i][j] = a [j][i]                               n.x vez
+retorne b[n][n]                                       1 vez
+
+- busca binária
+base 2
+logaritmo
+o( log n)
+
+

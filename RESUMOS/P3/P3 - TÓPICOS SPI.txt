@@ -1,0 +1,295 @@
+P3 - TÓPICOS SPI
+
+UNIDADE I
+
+1. QUAIS SÃO OS PRINCIPAIS ERROS DA GESTÃO DE PROJETOS ?
+FALTA DE PLANEJAMENTO
+PROLEMAS COM A COMUNICAÇÃO ENTRE A EQUIPE
+REALIZAR DIVERSAS ALTERAÇÕES EM SEU ESCOPO DURANTE A EXECUÇÃO
+POUCA TRANSPARÊNCIA
+DELEGAÇÃO ERRADA DAS ATIVIDADES ENTRE SUA EQUIPE
+FALTA DE MONITORAMENTO
+NÃO REALIZAR UM LEVANTAMENTO DOS RISCOS QUE PODEM OCORRER
+EXPECTATIVAS IRREALISTAS
+PRAZOS ARRISCADOS
+NÃO ESTAR ATENTO AOS ERROS
+DAR RAZÃO SEMPRE AO CLIENTE
+
+2. CITE ERROS DA GESTÃO DE TECNOLOGIA DA INFORMAÇÃO ?
+O RELACIONAMENTO COM O CLIENTE OU O FORNECEDOR NÃO ESTÁ SAUDÁVEL
+HÁ MAIS PROBLEMAS QUE RESOLUÇÕES NO PROJETO
+FALTAM RECURSOS PARA A REALIZAÇÃO OU O TÉRMINO DO PROJETO
+O AMBIENTE NÃO ESTÁ PROPÍCIO PARA TAL PROJETO
+A EQUIPE DO PROJETO NÃO É AUTÔNOMA OU NÃO POSSIO EXPERIÊNCIA SUFICIENTE
+O TIME ENVOLVIDO NO PROJETO NÃO É GUIADO POR MÉTRICAS
+EXISTE INCONSISTÊNCIA NO PROCESSO DE GESTÃO
+AÇÕES REQUEREM APROVAÇÕES CONSTANTES DO GERENTE DE PROJETOS
+
+3. O QUE ERA O TORTOISESVN ? E POR QUEM ELE FOI SUSBTITUIDO ?
+REPOSITÓRIO DE SISTEMA QUE TEM A FUNÇÃO DE ARMAZENAR OS DADOS DO SOFTWARE, GITHUB
+
+4. COMO FUNCIONA O MODELO CONVENCIONAL ?
+USUÁRIOS - APLICAÇÕES - OPERAÇÃO DO SISTEMA - HARDWARE
+
+5. QUAL A RESPONSABILIDADE DO DEV E DO OPS ?
+DEV - RESPONSÁVEL POR CONSTRUIR PRODUTOS E SERVIÇOS, MISSÃO DE CONSTRUIR AS COISAS
+OPS - RESPONSÁVEL POR MANTER OS PRODUTOS E SERVIÇOS EXISTENTES, MISSÃO DE MANTER ESTABILIDADE DOS PRODUTOS E SERVIÇOS
+
+6. COMO FUNCIONA O AUMENTO DO BASTIÃO ?
+ENTREGA RÁPIDA - IMPACTAM MAIORES DEMANDAS - GERAM MAIORES EXPECTATIVAS
+
+7. QUAIS OS MAIORES PROBELMAS DENTRO DE UMA EMPRESA ?
+GARGALO, EGO, PODER DE CHEFE E LÍDER
+
+8. QUAIS SÃO OS 4 VALORES DA METODOLOGIA AGILE ?
+I - INDIVÍDUOS E INTERAÇÕES
+II - SOFTWARE EM FUNCIONAMENTO
+III - COLABORAÇÃO COM O CLIENTE 
+IV - RESPONDER A MUDANÇAS
+
+9. QUAL UM DOS MAIORES MOTIVOS DOS CONFLITOS ENTRE EQUIPES ?
+ENTREGA DE VALOR VS QUALIDADE NO DESENVOLVIMENTO
+
+10. cite um motivo para ser competitivo no mercado ?
+entregas de software cada vez mais rápidas, com qualidade e com segurança
+
+11. o que é devops ?
+combinação dos termos desenvolvimento e operações, representa um conjunto de ideias e práticas que inclui segurança, maneiras colaborativas, análise de dados
+
+12. o que é cultura ?
+conjunto das estruturas sociais, religiosas, das manifestações intelectuais, artísticas que caracteriza uma sociedade
+
+13. qual a maior causa do devops ?
+como a cultura é algo fluído e relacionado a altitudes e hábitos, isso torna-se desafiador
+
+14. quais são os pilares do devops ?
+comunicação, colaboração, automação e monitoração
+
+15. quais são as dificuldades de implantação da cultura devops ?
+resistência á mudança
+muitas ferramentas
+arquiteturas de software monolíticas para microserviços
+transferência de conhecimento entre equipes
+coleta de métricas
+
+16. o que é empatia ?
+capacidade de se colocar no lugar de outra pessoa, buscando agir ou pensar de forma como ele pensaria ou agiria
+
+17. o que é disc ?
+dominância ( busca resultado ), influência ( busca relacionamento ), estbilidade ( busca colaboração ) e conformidade ( busca precisão )
+
+18. quais os pilares do dev ?
+comunicação e colaboração
+
+19. quais são os pilares do ops ?
+automação e monitoração
+
+20. o que é silos de informação ?
+impedem o fluxo de informações e dificultam o trabalho em conjunto
+
+21. o que é o efeito silo ?
+tendência das organizações em desenvolver compartimentalização entre departamentos ou grupos de trabalho, resultando em uma falta de comunicação e colaboração efetiva, os silos organizacionais agem como barreiras que impedem a troca de conhceimento e a sinergia entre diferentes partes da empresa
+
+22. como identificar os sintomas do efeito silo ?
+inclui comunicação fragmentada, falta de transparência entre departmentos  e uma mentalidade de "nós contra eles"
+
+23. o que é comunicação ineficaz ?
+falhas na transmissão de informações entre departamentos, levando a mal-entendidos desconexão
+
+24. o que é competição interna nociva ?
+rivalidades entre equipes ao invés de colaboração, resultando em recursos desperdiçados e objetivos conflitantes
+
+25. o que é falta de transparência ?
+informações retidas, barreiras ao compartilhamento de conhecimento e falta de clareza nas metas organizacionais
+
+26. o que é barreiras hierárquicas ?
+estruturas rígidas que dificultam a fluidez da informação entre diferentes níveis organizacionais
+
+27. qual impacto do efeito silo na colaboração entre equipes ?
+a falta de comunicação e cooperação resultante dos silos pode levar a projetos fragmentados, redundâncias de esforços e atrasos signficativos
+
+28. o que é desconexão estratégica ?
+equipes podem estar trabalhando em direções opostas, desconhcendo as metas gerais da organização, isso compromete a coesão organiacional e a realização de objetivos compartilhados
+
+29. o que é redundância de esforços ?
+diferentes equipes podem estar abordando os mesmos desafios sem conhecimento mútuo, resultando em gastos desnecessários de tempo e recursos
+
+30. o que é inibição da inovação ?
+a inovação floresce quando há uma troa constante de ideias e perspectivas
+
+31. o que é desmotivação e rotatividade ?
+a falta de suporte entre equipes podem resultar em desmotivação e alta rotatividade de funcionários
+
+32. quais as causas do efeito silo ?
+estruturas organizacionais rígidas, falta de comunicação efetiva, cultura de competição interna, falta de incentivo para colaboração, visão departamentalista
+
+33. quais as melhores estratégias para superar o efeito silo ?
+promoção de uma cultura de colaboração
+ferramentas de comunicação eficientes
+treinamento em habilidades interpessoais
+revisão de estruturas organizacionais
+incentivos para colaboração
+
+34. quais são os benefícios da colaboração ?
+colaboração e inovação
+produtividade aumentada
+satisfação e engajamento dos funcionários
+adaptabilidade ás mudanças
+qualidade aprimorada do trabalho
+
+35. quais os desafios comenus em comunicação ?
+ferramentas de colaboração
+colaboração entre equipes
+técnicas de colaboração
+
+36. o que é o pair programmig ?
+prática onde dois desenvolvedores trabalham juntos no mesmo código, o que aumenta a qualidade e o compartilahmento de conhecimento
+
+37. o que é swarming ?
+a equipe inteira se junta para resolver um problema crítico, não só agiliza a resolução como também fortalece a colaboração e o espírito de equipe
+
+38. quais são os ganhos com uma comunicação efetiva ?
+reduçã de erros
+melhor entendimento
+vínculo maior
+diminuição de inormações desencontradas
+melhora dos resultados
+solução de problemas
+saúde mental
+entregas com valor
+
+39. quais são as perdas com a falta de uma comunicação efetiva ?
+historia mal escritas
+falta de entendimento do processo da empresa
+problemas pessoais
+problemas com a máquina
+assedio moral
+timidez
+falta de confiança
+capacitação
+má liderança
+distribuição errada das demandas
+falta de planejamento
+
+40. qual o nome do método que é utilizado para a importância do autoconhecimento ?
+disc
+
+41. o que é autochecimento ?
+capacidade inata de permite perceber os nossos potenciais e tudo que necessita transformar
+
+42. qual a importância do autoconhecimento ?
+dá a habilidade de saber como e onde agem nossos pontos frágeis, facilitando compreender melhor o que nos rodeiam
+
+43. como fazer pra ter um autoconhecimento ?
+aceitação, ter em mente que não somos o que outros pensam e nem mesmo o que pensamos em ser, os sentimentos revelam o desempenho no passado, a atuação no presente e nossa potencialidade no futuro
+
+44. qual a responsabilidade do autoconhecimento ?
+somos os únicos responsáveis pelos nossos sentimentos
+
+45. defina os seguintes termos : 
+
+a) ética para conosco : somos tratados como nos tratamos 
+b) juízo de valor : não existe, sentimentos certos ou errados
+c) renovação do sistema de crenças : superar os preconceitos
+d) ação no bem : integração em projetos solidários
+e) florescer a singularidade : estamos muito afastados do que realmente somos
+f) sentir-se bem consigo é sinônimo de felicidade : deus se acenda em nós
+
+46, o que o preconceito pode ser capaz de fazer ?
+o preconceito é um fardo que confunde o passado, ameaça o futuro e torna o presente inacessível
+
+47. o que é disc ?
+metodologia que avalia o comportamento humano, identificando quatro perfis predminantes : dominância, influ~encia, estabilidade e conformidade, busca compreender como o ambiente influencia a percepção das pessoas
+
+48. quais são os benefícios do disc ?
+auto avaliação do nível de inteligência emocional, autoconhecimento, identificação do estilo compartamental, melhoria no nível da influência
+
+49. o que é o disc faz ?
+detecta as características comportamentais das pessoas, aponta os pontos de melhoria, proporciona autoconhecimento, complementa informações do currículo e histórico profissional e possibilita que entendam o que precisa melhorar ou potencializar
+
+50. o que o disc não faz ?
+não avalia a inteligência de uma pessoa, não detecta habilidade, não avalia valores, não considera a experiência e maturidade e não é uma ferramenta para manipular ourotular pessoas
+
+51. QUAL É O OBJETIVO DO DISC ?
+AS RESPOSTAS FORNECIDAS GERAM MÉTRICAS QUE INDICAM COMPORTAMENTOS E COMPETÊNCIAS DAS PESSOAS AVALIADAS.
+
+52. QUAIS OS PONTOS CRUCIAS PARA O FUNCIONAMENTO DO DISC ?
+CARACTERÍSTICAS DO PERFIL, PONTOS FORTES E MELHORIA, VALOR QUE AQUELAS PESSOA ACRESCENTA A EQUIPE E POSSÍVEIS FRAQUEZAS
+
+53. QUAL AS CARACTERÍSTICAS DA DOMINÂNICA ( VERMELHO ) ?
+PROATIVIDADE, FRENTE DAS DECISÕES, COMPETITIVOS, CONFIANTES, GOSTA DE DESAFIOS E NÃO MEDE ESFORÇOS PARA RESOLVER PROBLEMAS 
+
+54. QUAIS AS CARACTERÍSTICAS DA INFLUÊNCIA ( AMARELO ) ?
+PERSUASSÃO, AUTOCONFIANÇA, OTIMISMO, PESSOAS MAIS COMUNICATIVAS E NÃO ABREM MÃO DA LIBERDADE
+
+55. QUAIS AS CARACTERÍSTICAS DA ESTABILIDADE ( VERDE ) ?
+SOLIDÁRIOS, TRABALHA EM EQUIPE, TABALHAM EM AMBIENTE ESTÁVEL, EVITA CONFLITOS E MUDANÇAS DO DIA A DIA
+
+56. DEFINA OS PILARES DO DISC ?
+DOMINÂNCIA - PERFIL EXECUTOR
+INFLUÊNCIA - PERFIL COMUNICADOR
+CONFORMIDADE - PERFIL ANALISTA 
+ESTABILIDADE - PERFIL PLANEJADOR
+
+57. QUAL A BUSCA E OS MOTIVOS DOS PILARES DO DISC ?
+DOMINÃNCIA - RESULTADO E DESAFIOS EFICÁCIA
+INFLUÊNCIA - RELACIONAMENTO E LIBERADE CRIATIVIDADE
+CAUTELA - PRECISÃO E ALTOA PADRÕES EFICIÊNCIA
+ESTABILIDADE - COLABORAÇÃO E SEGURANÇA LEALDADE
+
+58. QUAIS SÃO AS CARACTERÍSTICAS DE CADA PILAR ?
+COMUNICADOR - COMUNICATIVO, PERSUASIVO, ENTUSIASMADO, OTIMISTA
+EXECUTADOR - AUTO CONFIANTE, DOMINANTE, COMPETITIVO, DESTEMIDO E CORAJOSO
+PLANEJADOR - ESTÁVEL, PACIENTE, CALMO, RITMO CONSTANTE E CONSERVADOR
+ANALISTA - PRECISO, ATENTO Á DETALHES, DILIGNTE, ORGANIZADO, CONSERVADOR
+
+59. o que é automação ?
+como a execução de tarefas repetitivas sem intervenção humana
+
+60. por que devo automatizar ?
+oferecer suporte a funcionários e parceiro, alcançar novos clientes e fornecer soluções e serviços inovadores
+
+61. quais as vantagens da automação em ti ?
+paradoxo da automação
+melhorar satisfação do cliente
+maior produtividade e confiabilidade
+governança facilitada
+operações em tempo integral
+maior segurança
+importância estratégica
+
+62. áreas de automação em devops ?
+infraestrutura como código ( iac )
+automação de pipelines ci/cd
+automação de testes
+automação de segurança
+automação de monitoramento e logging
+
+63. quais os beneficios da automação em devops ?
+escalabilidade e flexibilidade
+redução de custo e tempo
+consistência e conformidade
+
+64. quais são os desafios para a implementação da automação ?
+resistência cultural á mudança
+complexidade na automação de ambinetes legados
+gerenciamento de dependências e infraestrutura
+
+UNIDADE II 
+
+1. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

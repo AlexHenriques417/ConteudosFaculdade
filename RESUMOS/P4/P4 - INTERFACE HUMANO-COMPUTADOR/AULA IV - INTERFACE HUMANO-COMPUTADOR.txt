@@ -1,0 +1,57 @@
+AULA IV - INTERFACE HUMANO-COMPUTADOR
+
+- SISTEMAS INTERATIVOS 
+BUSQUE MANTER A COMPTATIBILIDADE
+PERMITA QUE USUÁRIOS HABITUAIS UTILIZEM ATALHOS
+OFEREÇA RETORNO INFORMATIVO
+PROJETE OS DIÁLOGOS PARA GARANTIR CONTINUIDADE
+OFEREÇA PREVENÇÃO E TRATAMENTO DE ERROS
+PERMITA DESFAZER AÇÕES FACILMENTE 
+MANTENHA O USUÁRIO NO CONTROLE
+REDUZA A CARGA COGNITIVA
+
+- Conheça as expectativas dos usuários sobre cores
+Utilize cores de forma consistente
+Utilize cores de forma conservadora e limitada (até 4 cores)
+Considere os problemas de pares de cores e de usuários com deficiência visual
+Assegure que o código de cores corresponde à tarefa
+Pense primeiro em preto e branco
+Utilize cores para ajudar a formatação, aumentar a densidade de informação
+
+- MENUS 
+Nas janelas primárias, podemos ter janelas de contextualização
+menus, barras de ferramentas e de status. Represente nelas
+OS objetos principais da aplicação e limite o número de janelas simultâneas para que se mantenha a aparência consistente
+
+- teste de exploração 
+é realizado quando o produto ainda se encontra na etapa de desenvolvimento
+
+- teste de avaliação
+realizado no início ou no meio do ciclo de desenvolvimento do produto, logo após o design fundamental ter sido estabelecido
+
+- teste de validação
+O principal objetivo desse teste é verificar como o software se integra em relação ao objetivo de usabilidade e ao conhecimento do usuário
+
+- PARA O USUÁRIO 
+Satisfação
+Eficácia
+Eficiência
+Facilidade no aprendizado
+Flexibilidade
+Facilidade de lembrar
+
+- Análise Semiótica
+É a ciência que estuda a lógica dos sistemas de sinais: linguagens, códigos, sinalização etc. Ela envolve:
+Um sinal (ou expressão)
+Um objeto de referência (ou conteúdo)
+Uma pessoa que interpreta (interpretando)
+
+- formações de um sinal
+Conteúdo e Expressão
+Substância e Forma
+Significado e Significante
+Signo
+
+- ÍCONE
+é um símbolo gráfico cuja visualização recupera, da memória de curto ou longo prazo
+lembranças relacionadas a vários fatores: perigos, alertas, opções, ações etc.

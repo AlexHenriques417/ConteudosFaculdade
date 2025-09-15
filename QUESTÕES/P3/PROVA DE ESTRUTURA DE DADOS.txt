@@ -1,0 +1,150 @@
+QUESTÕES DE ESTUDO PRA PROVA : 
+
+1.   Qual das alternativas abaixo melhor descreve a diferença entre dado e informação?
+
+a) Dados são conjuntos de fatos brutos e sem significado, enquanto informação é o dado processado e interpretado, tornando-se útil para a tomada de decisões.
+b) Dados e informações são sinônimos e podem ser usados indistintamente.
+c) Informação é qualquer conjunto de números ou caracteres armazenados, enquanto dados são apenas números isolados.
+d) Dados são sempre estruturados, enquanto informações são sempre não estruturadas.
+
+
+2. Sobre os tipos de dados homogêneos e heterogêneos, assinale a alternativa correta:
+
+a) Dados homogêneos são aqueles que possuem diferentes tipos de elementos, enquanto dados heterogêneos contêm apenas um único tipo de elemento.
+b) Dados homogêneos possuem elementos do mesmo tipo, enquanto dados heterogêneos são compostos por diferentes tipos de elementos.
+c) Dados homogêneos e heterogêneos são sinônimos e podem ser usados sem distinção.
+d) Dados heterogêneos são sempre numéricos, enquanto dados homogêneos podem ser textuais.
+
+
+3. Sobre os tipos de alocação de memória em estruturas de dados, assinale a alternativa correta:
+
+a) A alocação estática ocorre em tempo de execução, enquanto a alocação dinâmica ocorre em tempo de compilação.
+b) A alocação dinâmica permite que a memória seja alocada e liberada durante a execução do programa, enquanto a alocação estática reserva memória antes da execução.
+c) A alocação estática é mais flexível do que a alocação dinâmica, pois permite modificar o tamanho da memória alocada durante a execução.
+d) A alocação dinâmica sempre ocupa menos memória do que a alocação estática.
+
+
+4. Sobre os tipos de dados em programação, assinale a alternativa correta:
+
+a) Tipos de dados são estruturas físicas do computador usadas para armazenar apenas números inteiros.
+b) Tipos de dados definem a natureza dos valores que podem ser armazenados e manipulados em um programa.
+c) Tipos de dados são apenas categorias para armazenar texto em linguagens de programação.
+d) Em todas as linguagens de programação, só existem dois tipos de dados: inteiro e string.
+
+
+5. Sobre tipagem implícita e explícita, escolha a alternativa correta:
+
+a) Tipagem implícita ocorre quando o programador especifica o tipo de dado ao declarar uma variável, enquanto tipagem explícita permite que o compilador determine automaticamente o tipo.
+b) Na tipagem explícita, o programador define manualmente o tipo da variável, enquanto na tipagem implícita o compilador ou interpretador infere o tipo automaticamente.
+c) Tipagem explícita é usada apenas em linguagens de programação de baixo nível.
+d) Tipagem implícita é mais segura do que a tipagem explícita, pois evita erros de atribuição de tipo.
+
+
+6. Sobre a diferença entre tipagem fraca e tipagem forte, marque a alternativa correta:
+
+a) Em linguagens de tipagem forte, os tipos de dados são rigidamente controlados, enquanto em linguagens de tipagem fraca é possível realizar conversões automáticas entre tipos.
+b) A tipagem fraca impede a conversão automática de tipos, enquanto a tipagem forte permite essa conversão sem restrições.
+c) Todas as linguagens de programação modernas utilizam exclusivamente tipagem forte.
+d) Tipagem forte e tipagem fraca são conceitos obsoletos e não influenciam a programação atual.
+
+
+7. Sobre a linguagem C, assinale a alternativa correta:
+
+a) C é uma linguagem interpretada, orientada a objetos e de alto nível.
+b) C é uma linguagem compilada, estruturada e de propósito geral.
+c) C é exclusivamente utilizada para desenvolvimento web.
+d) C não permite manipulação direta de memória.
+
+
+8. Qual a principal diferença entre string e array de char na linguagem C?
+
+a) Em C, uma string é uma estrutura de dados especial, diferente de um array de char.
+b) Uma string em C é apenas um array de char finalizado pelo caractere nulo \0.
+c) String e array de char são completamente diferentes e não podem ser manipulados da mesma forma.
+d) Em C, não existem strings, apenas vetores numéricos.
+
+
+9. Sobre variáveis locais e globais em C, marque a alternativa correta:
+
+a) Variáveis locais são declaradas dentro de funções e só podem ser acessadas dentro delas, enquanto variáveis globais são declaradas fora de funções e podem ser acessadas em qualquer parte do programa.
+b) Variáveis locais podem ser acessadas por todas as funções do programa.
+c) Variáveis globais só podem ser usadas dentro da função main().
+d) O C não permite variáveis globais, apenas locais.
+
+
+10. Sobre constantes nas linguagens de programação, assinale a alternativa correta:
+
+a) Constantes são variáveis que podem ser modificadas a qualquer momento no código.
+b) Constantes são valores fixos que não podem ser alterados durante a execução do programa.
+c) Em C, não é possível declarar constantes.
+d) Constantes podem ser alteradas apenas se forem declaradas dentro de funções.
+
+
+11. Escolha a alternativa correta sobre a sintaxe de comentários em C:
+
+a) // para comentários de uma linha e /* */ para comentários de múltiplas linhas.
+b) Apenas /* */ pode ser usado para comentários.
+c) # é o único símbolo usado para comentários em C.
+d) Comentários não são suportados na linguagem C.
+
+
+12. Sobre scanf e fgets em C, assinale a alternativa correta:
+
+a) scanf lê entradas até encontrar um espaço, enquanto fgets lê a linha inteira incluindo espaços.
+b) fgets só pode ser usado para números inteiros, enquanto scanf é usado para textos.
+c) scanf e fgets são idênticos e podem ser usados sem diferença.
+d) scanf é mais seguro que fgets para capturar entradas do usuário.
+
+
+13. Marque a alternativa que contém apenas operadores existentes nas linguagens de programação:
+
+a) Aritméticos, Relacionais, Lógicos, Bitwise e de Atribuição.
+b) Unários, de Conversão, de Exclusão e de Comparação Estrita.
+c) Somente operadores Aritméticos e Relacionais.
+d) Não existem operadores em linguagens de programação.
+
+
+14. Sobre recursividade, assinale a alternativa correta:
+
+a) Recursividade é uma técnica onde uma função chama a si mesma para resolver um problema menor de forma repetitiva.
+b) Recursividade é um tipo especial de loop for ou while.
+c) Funções recursivas não precisam de uma condição de parada.
+d) Recursividade só pode ser utilizada para cálculos matemáticos simples.
+
+
+15. Sobre a nomenclatura de variáveis na maioria das linguagens de programação, assinale a alternativa correta:
+
+a) Os nomes das variáveis podem começar com qualquer caractere, incluindo números e símbolos especiais.
+b) Os nomes das variáveis devem começar com uma letra e não podem conter espaços.
+c) Não há restrições para nomear variáveis em linguagens de programação.
+d) As variáveis podem ter qualquer nome, inclusive palavras reservadas da linguagem, sem causar erros.
+
+obs :
+Os operadores mais comuns incluem:
+
+Aritméticos (+, -, *, /, %);
+
+Relacionais (==, !=, >, <, >=, <=);
+
+Lógicos (&&, ||, !);
+
+Bitwise (&, |, ^, ~, <<, >>);
+
+De atribuição (=, +=, -=, *=, /=, %=).
+
+GABARITO :
+1 - A
+2 - B
+3 - B
+4 - B
+5 - B
+6 - A
+7 - B
+8 - B
+9 - A
+10 - B
+11 - A
+12 - A
+13 - A
+14 - A
+15 - B

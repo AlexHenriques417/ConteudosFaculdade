@@ -1,0 +1,391 @@
+P4 - ANÁLISE E PROJETO DE SISTEMAS
+
+QUESTões
+
+1. Explique por que software profissional não é apenas os programas que são desenvolvidos para o cliente.
+
+resposta 
+os programas são essenciais para fazer a solução do problema, porem precisa ser adiciona toda a estrutura de dados que será essencial pro resulto e a documentação que irá trazer o que tem e não tem no sistema, como solucionar os bugs, como foi feito e quais requisitos foram usandos
+
+2. Quais são as diferenças entre o desenvolvimento de um produto de software genérico e um desenvolvimento de um produto de software personalizado?
+
+resposta 
+Genérico -> “Um produto para muitos”, com funcionalidades amplas e custo diluído
+Personalizado -> “Um produto para um”, adaptado ao cliente, mais caro e sob medida
+
+3. quais os quatro atributos importantes que todo softwar deve possuir?
+
+resposta 
+manutenibilidade | confiabilidade | eficiência | usabilidade
+
+4. Além dos desafios de heterogeneidade, entrega rápida e confiança, indique outros problemas e desafios que a engenharia de software provavelmente enfrentará no século XXI.
+
+resposta 
+sistema legado | heterogeneidade | entrega
+segurança | ergonomia de software | perfomance do software
+
+5. Quanto à análise e ao projeto de sistemas, assinale a alternativa correta.
+
+A) Requisitos de sistema são descrições muito genéricas das funções e dos serviços do sistema de software.
+B) Como forma de realizar uma boa análise, é obrigatório que os requisitos sejam escritos em um único nível de detalhamento, para que vários leitores tenham a mesma visão do problema.
+C) Requisitos de usuário podem ser definidos como declarações dos serviços que o sistema deverá fornecer a seu usuário e das restrições com as quais este deve operar.
+D) Requisitos funcionais jamais devem explicitar o que o sistema não deve fazer.
+E) Restrições de timing e restrições no processo de desenvolvimento são exemplos de requisitos funcionais.
+
+RESPOSTA : LETRA C
+
+6. Na análise e projeto de sistemas, uma fase considerada muito importante é a de testes. Diversos tipos de testes são executados, desde a fase inicial até a implantação do novo sistema. Os testes têm como objetivo verificar a funcionalidade do sistema se o sistema atende ao que foi projetado. Quatro estágios de testes são conhecidos e cada um tem os seus respectivos tipos de testes. Dois tipos de testes são: testes da caixa preta e testes da caixa branca. Assinale a alternativa que apresenta corretamente qual estágio esses tipos de testes pertencem.
+
+A) Testes de Sistema.
+B) Testes de Unidade.
+C) Testes de Aceitação.
+D) Testes de Integração.
+
+RESPOSTA : LETRA B
+
+7. O que é um processo de software?
+
+A) Conjunto de códigos prontos para reuso.
+B) Conjunto coerente de atividades para a produção de software. 
+C) Apenas a fase de codificação de um sistema.
+D) Etapas opcionais para testar software.
+
+RESPOSTA : LETRA B
+
+8. Quais atividades podem fazer parte de um processo de software?
+
+A) Apenas codificação.
+B) Atividades feitas a partir do zero e modificação de sistemas existentes. 
+C) Apenas testes unitários.
+D) Apenas manutenção de hardware.
+
+RESPOSTA : LETRA B
+
+9. Qual modelo de processo de software é sequencial e rígido?
+
+A) Desenvolvimento incremental.
+B) Modelo em cascata. 
+C) Prototipagem evolutiva.
+D) Engenharia de software orientada a reuso.
+
+RESPOSTA : LETRA B
+
+10. O desenvolvimento incremental é caracterizado por:
+
+A) Versão única do sistema entregue no final.
+B) Divisão em entregas parciais e funcionais. 
+C) Criação apenas de protótipos descartáveis.
+D) Ausência de testes.
+
+--------------------------
+
+RESPOSTA : LETRA B
+
+11. Qual abordagem se refere à criação de sistemas usando partes já existentes?
+
+A) Modelo em cascata.
+B) Engenharia de software orientada a reuso.
+C) Prototipagem descartável.
+D) Desenvolvimento evolucionário.
+
+RESPOSTA : LETRA B 
+
+12. Um exemplo de lidar com mudanças no processo de software é:
+
+A) Criar documentação extensa e imutável.
+B) Usar prototipação e entrega incremental. 
+C) Impedir alterações no ciclo de vida.
+D) Trabalhar sem requisitos.
+
+RESPOSTA : LETRA B
+
+13. Quais são as atividades fundamentais de um processo de software?
+
+A) Planejamento, operação e manutenção.
+B) Especificação, desenvolvimento, validação e evolução. 
+C) Testes unitários, testes de sistema e integração.
+D) Mockup, prototipagem e codificação.
+
+RESPOSTA : LETRA B
+
+14. A validação de requisitos, projeto de arquitetura e testes unitários são exemplos de:
+
+A) Produtos de software.
+B) Subatividades dentro das atividades principais. 
+C) Modelos de prototipagem.
+D) Métodos formais de verificação.
+
+RESPOSTA : LETRA B 
+
+15. Dentro das descrições de processo, pré-condições significam:
+
+A) Regras que precisam ser cumpridas antes de iniciar uma atividade. 
+B) Papéis dos usuários.
+C) Resultados obtidos após o teste.
+D) Documentos de planejamento.
+
+RESPOSTA : LETRA A 
+
+16. Em um processo dirigido a planos:
+
+A) Todas as atividades são planejadas com antecedência. 
+B) O planejamento é gradativo.
+C) O cliente altera o sistema a qualquer momento.
+D) Não há documentação.
+
+RESPOSTA : LETRA A
+
+17. Em processos ágeis:
+
+A) Planejamento é fixo e imutável.
+B) Mudanças são refletidas nas necessidades do cliente. 
+C) Não há entregas incrementais.
+D) O processo segue rigorosamente o modelo cascata.
+
+RESPOSTA : LETRA B
+
+18. O modelo de atividade apresenta:
+
+A) Ordem de precedência das atividades e artefatos gerados. 
+B) Apenas papéis de usuários.
+C) Apenas os testes unitários.
+D) Somente a documentação final.
+
+RESPOSTA : LETRA A
+
+19. A perspectiva de fluxo de dados foca em:
+
+A) Quem faz o que.
+B) O fluxo de informações dentro do sistema. 
+C) A ordem das atividades.
+D) O cliente durante a validação.
+
+RESPOSTA : LETRA B
+
+20. Um modelo genérico de processo que permite transformações matemáticas de especificações é:
+
+A) Integração de componentes reutilizáveis.
+B) Transformação formal. 
+C) Desenvolvimento incremental.
+D) Prototipagem descartável.
+
+RESPOSTA : LETRA B
+
+21. As fases do ciclo de vida do software incluem:
+
+A) Planejamento, análise, projeto, implementação, testes, implantação e operação. 
+B) Codificação, depuração e entrega.
+C) Prototipagem e mockup.
+D) Reuso e manutenção apenas.
+
+RESPOSTA : LETRA A
+
+22. Qual a principal crítica ao modelo cascata?
+
+A) Antecipação de riscos.
+B) Atraso na resolução de riscos e baixa flexibilidade. 
+C) Ausência de documentação.
+D) Falta de sequenciamento.
+
+RESPOSTA : LETRA B
+
+23. Mudança é inevitável porque:
+
+A) Requisitos e pressões externas mudam. 
+B) O modelo cascata não funciona.
+C) Usuários não participam do processo.
+D) Programadores preferem refatorar código.
+
+RESPOSTA : LETRA A
+
+24. A prototipagem descartável é usada para:
+
+A) Entregar versões finais aos clientes.
+B) Entender e clarificar requisitos do sistema. 
+C) Substituir documentação.
+D) Produzir versões definitivas.
+
+RESPOSTA : LETRA B
+
+25. A prototipagem evolucionária tem como característica:
+
+A) Protótipos sempre descartados.
+B) Evolução contínua junto ao cliente, mantendo versões. 
+C) Apenas documentação extensiva.
+D) Ausência de testes.
+
+RESPOSTA : LETRA B
+
+--------------------------
+
+26. O que é o levantamento de requisitos?
+
+a) Processo de estruturar e detalhar os requisitos.
+b) Etapa de buscar todas as informações possíveis sobre o sistema.
+c) Definição das prioridades de desenvolvimento.
+d) Solução de conflitos entre usuários e desenvolvedores.
+
+RESPOSTA : LETRA B
+
+27. Qual é o produto final da etapa de levantamento de requisitos?
+
+a) Documento de requisitos. 
+b) Diagrama de casos de uso.
+c) Protótipo inicial.
+d) Documento de modelagem UML.
+
+RESPOSTA ; LETRA A
+
+28. A fase de análise de requisitos tem como objetivo principal:
+
+a) Produzir ideias originais sobre o sistema.
+b) Estruturar e detalhar requisitos para a modelagem.
+c) Criar a arquitetura de software definitiva.
+d) Escolher a linguagem de programação do projeto.
+
+RESPOSTA : LETRA B
+
+29. O que caracteriza os requisitos funcionais?
+
+a) São restrições de desempenho e usabilidade.
+b) Declarações de serviço que o sistema deve fornecer. 
+c) Características como escalabilidade e portabilidade.
+d) Limitações sobre as plataformas de execução.
+
+RESPOSTA : LETRA B
+
+30. Um exemplo de requisito não funcional é:
+
+a) O sistema deve calcular a folha de pagamento.
+b) O usuário poderá cadastrar novos clientes.
+c) O sistema deve responder em até 2 segundos. 
+d) O sistema deve emitir relatórios mensais.
+
+RESPOSTA : LETRA C
+
+31. Entre as técnicas de coleta de requisitos, o brainstorming tem como objetivo:
+
+a) Definir as prioridades dos stakeholders.
+b) Produzir o maior número possível de ideias. 
+c) Validar requisitos já documentados.
+d) Especificar requisitos de sistema detalhados.
+
+RESPOSTA : LETRA B
+
+32. Qual tipo de entrevista é caracterizada por perguntas pré-definidas e objetivas?
+
+a) Entrevista aberta.
+b) Entrevista fechada. 
+c) Entrevista semi-estruturada.
+d) Entrevista informal.
+
+RESPOSTA : LETRA B
+
+33. O que significa o atributo de qualidade portabilidade em requisitos não funcionais?
+
+a) Tempo de resposta do sistema.
+b) Capacidade de evoluir facilmente.
+c) Operar em várias plataformas. 
+d) Grau de confiança dos usuários.
+
+RESPOSTA : LETRA C
+
+34. Em relação aos requisitos de usuário, podemos afirmar:
+
+a) São descritos em linguagem técnica para desenvolvedores.
+b) São descritos de forma abstrata, compreensível pelos usuários. 
+c) São estruturados apenas em diagramas UML.
+d) São detalhados em termos de entradas e saídas do sistema.
+
+RESPOSTA : LETRA B
+
+35. O documento de requisitos deve conter:
+
+a) Apenas restrições não-funcionais.
+b) Introdução, visão geral, requisitos funcionais e não funcionais. 
+c) Somente os diagramas de casos de uso.
+d) Apenas o escopo contemplado do sistema.
+
+RESPOSTA : LETRA B
+
+--------------------------
+
+36. O RUP (Rational Unified Process) pode ser definido como:
+a) Um modelo prescritivo de desenvolvimento de software.
+b) Um framework de processos que reúne elementos de engenharia de software.
+c) Uma linguagem de modelagem visual.
+d) Uma metodologia ágil de prototipação rápida.
+
+RESPOSTA : LETRA B
+
+37. Qual característica NÃO pertence ao RUP?
+a) Iterativo e incremental.
+b) Guiado por casos de uso.
+c) Centrado na arquitetura.
+d) Baseado unicamente em cascata linear.
+
+RESPOSTA : LETRA D
+
+38. O modelo prescritivo se caracteriza por:
+a) Flexibilidade total sem regras definidas.
+b) Fornecer passo a passo, métodos e métricas a serem seguidos.
+c) Ser sempre iterativo e incremental.
+d) Ser um processo totalmente empírico.
+
+RESPOSTA : LETRA B
+
+39. A perspectiva dinâmica do RUP mostra:
+a) As disciplinas, artefatos e papéis do processo.
+b) As fases do modelo ao longo do tempo.
+c) As boas práticas utilizadas no processo.
+d) A arquitetura lógica do sistema.
+
+RESPOSTA : LETRA B
+
+40. Durante a fase de Elaboração do RUP, o principal objetivo é:
+a) Estabelecer escopo e viabilidade econômica do projeto.
+b) Eliminar riscos significativos e definir arquitetura estável.
+c) Desenvolver o produto até estar pronto para beta testes.
+d) Disponibilizar o software ao usuário final.
+
+RESPOSTA : LETRA B 
+
+41. A fase de Construção do RUP tem como foco principal:
+a) Gerar documentos de visão e casos de negócio.
+b) Disponibilizar software em ambiente real.
+c) Desenvolver e testar o produto, gerenciando recursos e operações.
+d) Estabelecer arquitetura inicial através de protótipos.
+
+RESPOSTA : LETRA C
+
+42. A fase de Transição do RUP envolve:
+a) Definir arquitetura de software.
+b) Realizar testes beta e disponibilizar o sistema aos usuários finais.
+c) Esclarecer requisitos pendentes.
+d) Elaborar o documento de visão e o plano de desenvolvimento.
+
+RESPOSTA : LETRA B
+
+43. Sobre a característica "Planejado por riscos" no RUP, é correto afirmar que:
+a) Os riscos não são considerados, pois o foco é a entrega.
+b) Os riscos são analisados apenas no início do projeto.
+c) Os riscos são avaliados continuamente e os mais críticos tratados primeiro.
+d) Apenas riscos financeiros são avaliados.
+
+RESPOSTA : LETRA C
+
+44. A dimensão horizontal do RUP representa:
+a) As disciplinas, papéis e atividades.
+b) O aspecto dinâmico do processo expresso em fases, marcos e iterações.
+c) A análise de riscos durante todo o projeto.
+d) A definição da arquitetura estável.
+
+RESPOSTA : LETRA B
+
+45. Entre as vantagens do uso de metodologias como o RUP, destaca-se:
+a) A redução da comunicação entre a equipe.
+b) A imprevisibilidade do cronograma.
+c) A qualidade do software e maior produtividade.
+d) A eliminação da necessidade de testes.
+
+RESPOSTA : LETRA C 

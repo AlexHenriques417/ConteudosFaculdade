@@ -1,0 +1,222 @@
+P3 - ESTRUTURA DE DADOS
+
+UNIDADE I
+
+1. O QUE ESTUDA EM ESTRUTURA DE DADOS ?
+MECANISMO PARA ORGANIZAÇÃO DE DADOS PARA ATENDER REQUISITOS DE PROCESSAMENTO, DEFINE A ORGANIZAÇÃO, MÉTODOS DE ACESSO E OPÇÕES DE PROCESSAMENTO
+
+2. O QUE É UMA ESTRUTURA DE DADOS ?
+É UM MODO DE ARMAZENAR E ORGANIZAR OS DADOS EM UM COMPUTADOR, COM OBJETIVO DE POSSIBILITAR QUE TAIS DADOS SEJAM USADOS DE FORMA MAIS EFICIENTE, POR ISSO SÃO FORMAS DE ARMAZENAR, GERENCIAR E MANIPULAR OS DADOS, AS ESTRUTURAS DE DADOS FORNECEM MÉTOSOS PARA ACESSAR E OPERAR SOBRE ESSES DADOS 
+
+3. COMO OS ALGORITMOS PODEM MANIPULAR OS DADOS ?
+QUANDO OS DADOS ESTIVEREM ORGANIZADOS DE MANEIRA COERENTE PARA A RESOLUÇÃO EFICAZ DE UM PROBLEMA
+
+4. EXEMPLOS DE ACESSOS EXCLUSIVOS DOS DADOS ?
+VETORES, MATRIZES, LISTAS, FILAS, PILHAS, ÁRVORES, GRAFOS, TABELAS HASH, ETC
+
+5. QUAIS SÃO OS TIPOS DE DADOS E DEFINA CADA UM DELES ?
+HOMOGÊNEAS - COMPOSTOS POR VÁRIOS ELEMENTOS DO MESMO TIPO
+HETEROGÊNEAS - COMPOSTOS POR ELEMENTOS DE TIPOS VARIADOS ENTRE SI
+
+6. QUAIS SÃO AS FORMAS DE ALOCAÇÃO ?
+ESTÁTICAS - POSSUEM TAMANHO FIXO, DEFINIDO NO MOMENTO DA CRIAÇÃO
+DINÂMICAS - ESTRUTURAS QUE VÃO SOLICITANDO MAIS ESPAÇO NA MEMÓRIA DE ACORDO COM A DEMANDA
+
+7. QUAIS AS VANTAGENS DE USAR ESTRUTURAS DE DADOS ?
+DESEMPENHO E EFICÊNCIA
+REUTILIZAÇÃO DE CÓDIGO
+DESENVOLVIMENTO DE ALGORITMOS
+TRABALHO EM EQUIPE
+
+8. O QUE É UM DADO ?
+É UMA REPRESENTAÇÃO SIMBÓLICA DE ALGO DO MUNDO REAL QUE PODE SER ARMAZENADA E PROCESSADA, ELES SÃO BRUTOS E NÃO TEM CONTEXTO
+
+9. O QUE É INFORMAÇÃO ?
+RESULTADO DO PROCESSAMENTO DE DADOS, QUANDO JÁ TEM UM SIGNFICADO E UTILIZADO, MAS ELE ESTÁ ORGANIZADO, ESTRUTURADO E CONTEXTUALIZADO
+
+10. O QUE É CONHECIMENTO ?
+É O ENTENDIMENTO E A INTERPRETAÇÃO DA INFORMAÇÃO BASEADO NO CONTEXTO É UM CONJUNTO DE INFORMAÇÕES
+
+11. O QUE É INTELIGÊNCIA ?
+É O MAIS ALTO NÍVEL DE COMPREENSÃO E APLICAÇÃO DO CONHECIMENTO, VISANDO A CAPACIDADE DE TOMAR DECISÕES SÁBIAS E EDICAFEZ, É UM CONJUNTO DE CONHECIMENTO
+
+12. O QUE SÃO TIPAGEM DE LINGUAGEM ?
+SISTEMA QUE DEFINE COMO OS TIPOS DE DADOS SÃO TRATADOS E MANIPULADOS DENTRO DO CÓDIGO
+
+13. O QUE SÃO TIPOS DE DADOS ?
+DEFINE, OS DIFERENTES TIPOS DE VALORES QUE PODEM SER ARMAZENADOS E MANIPULADOS EM UM PROGRAMA, É UM CONJUNTO PARA GUARDAR OS DADOS, E O CONJUNTO DE FUNÇÕES PARA USAR ESSES DADOS QUE FORAM ARMAZENADOS
+
+14. COMO PODE SER CLASSIFICADA A VERIFICAÇÃO DOS TIPOS DE DADOS ?
+TIPAGEM ESTÁTICA E TIPAGEM DINÂMICA
+
+15. COMO PODE SER CLASSIFICADA A FORMA DE DECLARAÇÃO DOS TIPOS DE DADOS ?
+TIPAGEM IMPLÍCITA E TIPAGEM EXMPLÍCITA
+
+16. COMO PODE SER CLASSIFICADA A CONVERSÃO DE TIPOS ?
+TIPAGEM FRACA E TIPAGEM FORTE 
+
+17. QUAL DIFERENÇA DA TIPAGEM ESTÁTICA PARA DINÂMICA ?
+ESTÁTICA - JAMAIS MUDAM DE TIPO DURANTE A EXECUÇÃO DO SOFTWARE
+DINÂMICA - AS VARIÁVEIS SÓ TERÃO SEUS TIPOS DEFINIDOS QUANDO O PROGRAMA ESTIVER SENDO EXECUTADO
+
+18. QUAL A DIFERENÇA DA TIPAGEM IMPLÍCIA PARA EXPLÍCITA ?
+IMPLÍCITA - O TIPO DE VARIÁVEL NÃO PRECISA SER DECLARADA NO MOMENTO DA CRIAÇÃO DA VARIÁVEL
+EXPLÍCITA - O TIPO DE VARIÁVEL PRECISA SER EXPLICITAMENTE DECLARADO PARA QUE UMA VARIÁVEL SEJA DECLARADA
+
+19. QUAL A DIFERENÇA DE TIPAGEM FRACA E FORTE ?
+FRACA - AS CONVERSÕES ENTRE TIPOS DE DADOS SÃO REALIZADOS AUTOMATICAMENTE QUIANDO NECESSÁRIO
+FORTE - AS CONVERSÕES ENTRE OS TIPOS DE DADOS NÃO FEITOS AUTOMATICAMENTE
+
+20. DEFINA A LINGUAGEM C ?
+POPULAR, ALTO NÍVEL, PRÓXIMO DA LINGUAGEM HUMANA, SE DERIVOU ( C++, C#, OBJECTIVE-C ), LINGUAGEM PROCEDUAL, MULTIPLATAFORMA, FORNECE ACESSO A BAIXO NÍVEL Á MEMÓRIA, É ESTRUTURADA ( IMPERATIVA )
+
+21. O QUE É LINGUAGEM PROCEDUAL ?
+PERMITE QUE UM PROBLEMA COMPLEXO SEJA FACILMENTE DECOMPOSTO EM MÓDULOS 
+
+22. PORQUE USAR C ?
+CÓDIGO DE ALTA PERFORMACE, CRIAR BIBLIOTECAS, CÓDIGO PORTÁVEL, VELOCIDADE, ESPAÇO E PORTABILIDADE
+
+23. O QUE C ARESENTA E?
+PRÉ-PROCESSADOR, MACROS, PONTEIROS, ACESSO A BAIXO NÍVEL, META-PROGRAMAÇÃO, SOBRECARGA DE OPERADORES E OUTROS RECURSOS
+
+24. O QUE É SISTEMA EMBARCADO ?
+dispositivo eletrônico que combina hardware e software para realizar uma tarefa específica em um sistema maior
+
+25. como é a organização de programas e c ?
+dados - variáveis que são inicializadas no início do programa
+funções - pequenas partes do código organizada em módulos
+main - principal função do programa
+
+26. a onde pode desenvolver c ?
+dev c++, code::blocks, eclipse, vc code e etc
+
+27. defina os tipos de arquivos de c :
+arquivos-cabeçalhos : são códigos fontes que contêm a declaração de variaáveis, constantes, de macros e funções ( #include )
+bibliotecas - conjunto de funções e outros recursos que foram pré-compiladas e podem ser usadas em diferentes programas
+
+28. o que é identação e pra que serve ?
+é o espaçamento colocado antes de começar a escrever o código na linha, tem objetivo indicar a hierarquia dos elementos, torna a leitura do código-fonte muito mais fácil e facilita a sua modificação
+
+29. quais os tipos de dados básicos ?
+int, char, float, double e void
+
+30. qual a diferença de string de array de char ?
+string - é um array de char que obrigatoriamente termina com um caractere nulo '\0', o caractere nulo sinaliza o fim da string
+array de char - sequência de caracteres armazenados em posições de memória contínuas, se não terminar com '\0', não é cosiderado uma string válida, pode ser usado para armanezar qualquer sequência de caracteres, mesmo que não representem palavras ou frases
+
+31. resumo a diferença de string e array de char ?
+toda string é um array de char, mas nem todo array de char é uma string
+a presença do caractere nulo '\0', é o que define um array de char como uma string em c
+
+32. o que são variáveis locais ?
+são aquelas declaradas dentro de funções, só podem ser usadas dentro do mesmo bloco que inicia com uma chave e fecha com outra chave {}
+
+33. o que são variáveis globais ?
+são feitas fora de todas as funções do programa, podem ser acessadas de qualquer lugar do programa
+
+34. cite algumas regras que deve ser seguida pra criar variáveis em c ?
+i - nome da variável deve conter um ou mais caracteres
+ii - primeiro caractere sempre deve ser uma letra
+iii - os demais caracteres podem ser letras, numeros e "_"
+iv - não pode fazer separação de palavras
+v - não pode colocar a variável com o mesmo nome de uma palavra chave
+
+35. o que deve ter no final de cada linha de comando em c ?
+;
+
+36. o que são constantes ?
+são valores fixos que o programa não altera em tempo de execução
+
+37. quais são as regras para o uso das constantes ?
+constantes de caracteres - são envolvidas por aspas simples
+constantes inteiras - são inteiras com ou sem sinal 
+constantes em ponto flutuante requerem ponto deciaml seguido pela parte fracionaria
+
+38. cite as principais constantes especiais da lingugem em c ?
+\n - nova linha
+\t - tabulação horizontal
+\0 - nulo
+
+39. o que são operadores e operando ?
+operadores - são símbolos que realizam operações = +, -, *, /, <, >
+operando - podem ser constantes, variáveis ou funções que são aplicadas as operações
+
+40. quais são as expressões e pra que serve ?
+relacionais - quando comparam  dois operandos e retornam um valor booleano
+lógicos - quando combinam expressões relacionais usando operadores lógicos
+atribuição - atribui um valor para uma variável
+
+41. qual a função do printf ?
+é usada para exibir resultados produzidos pelo programa 
+
+42, cite alguns especificadores de formato ?
+%c, %d, %s, $f
+
+43. o que são comentários e como aplicá-los?
+são informações adicionadas ao código que não serão compiladas, importante para clareza e colaboração entre a equipe, comentário de uma linha se usa o // e comentário de bloco usa o /* */
+
+44. o que são operadores de atribuição ?
+são operadores criados para facilitar a digitação de código, fazendo 2 operações em 1 só comando
+
+45. qual a diferença de argc e argv ?
+argC - um inteiro que representa o número de argumentos passados para o programa
+argv - um vetor de strings que contém os argumentos da linha de comando
+
+46. QUAIS SÃO OS TIPOS DE OPERADORES QUE PODEM EXISTIR ?
+ARTIMÉTICOS, ATRIBUIÇÃO, RELACIONAIS, LÓGICOS
+
+47. O QUE É A ENTRADA DE DADOS ?
+PROCESSO DE RECEBER INFORMAÇÕES DO USUÁRIO DE OUTRAS FONTES EXTERNAS DURANTE A EXECUÇÃO DO PROGRAMA
+
+48. CARACTERIZE A FUNÇÃO SCANF() E FGETS() ?
+SCANF() - PERMITE LER VALORES DE DIFERENTES TIPOS A PARTIR DA ENTRADA PADRÃO, ELA PRECISA DE ESPECIFICADORES DE FORMATO, PODE TER VÁRIOS EM UMA ÚNICA LINHA, OU UM DEBAIXO DO OUTRO
+FGETS - UTILIZADA PARA LER UMA STRING DA ENTRADA PADRÃO, UTILIZADA QUANDO LER UM TEXTO COM ESPAÇOS
+
+49. QUAL A DIFERENÇA DE VARIÁVEL, SIZEOF E STDIN NO FGETS ?
+VARIÁVEL - QUE VAI RECEBER O CONTEÚDO QUE VAI SER LIDO
+SIZEOF - INDICA O TAMANHO DO DADO QUE VAI SER LIDO
+STDIN - ENTRADA PADRÃO 
+
+50. O QUE É CONTROLE DE FLUXO ?
+O PROGRAMA SEGUE UMA ORDEM PARA LER O CÓDIGO, SEMPRE DE CIMA PRA BAIXO, FAZENDO CADA COMANDO ESCRITO NA TELA
+
+51. O QUE É ESTRUTURAS DE RAMIFICAÇÃO ?
+SERVE PRA DETERMINAR QUAL TRECHO DO CÓDIGO SERÁ EXECUTADO, FAZENDO UMA CONDIÇÃO
+
+52. O QUE É UMA CONDIÇÃO ?
+QUALQUER EXPRESSÃO RELACIONAL QUE RESULTE EM VERDADEIRO OU FALSO
+
+53. O QUE É O IF E COMO ELE FUNCIONA ?
+UTILIZADO PRA ESCOLHER ENTRE DOIS CAMINHOOS, SE A CONDIÇÃO FOR VERDADEIRA A SEQUÊNCIA DE COMANDOS SERÁ EXECUTADA, SE FOR FALSO, NÃO SERÁ EXECUTADA E O PROGRAMA CONTINUARÁ A PARTIR DO PRIMEIRO COMANDO SEGUINTE AO FINAL DO COMANDO
+
+54. QUAL O PRINCIPAL LEMBRE DO IF ?
+NÃO TEM PONTO E VIRGULA NO IF
+QUANDO TIVER APENAS PRINTF, NÃO PRECISA COLOCAR CHAVES
+QUANDO TIVER MAIS DE 2 PRINTF, PRECISA ABRIR E FECHAR CHAVES NO IF
+
+55. O QUE É ELSE E COMO ELE FUNCIONA ?
+AUXILIA O IF, AJUDA A ESCOLHER CAMINHOS, ELE SERÁ EXECUTADO QUANDO O VALOR DA CONDIÇÃO IF FOR FALSA
+
+56. O QUE É IF ANINHADO ?
+QUANDO O IF E O ELSE NÃO É O SUFICIENTE E PRECISA TER OUTRAS CONDIÇÕES USANDO O ELSE-IF
+
+57. diferencie o for, while e do while ?
+for - usando quando se sabe exatamente quantas repetições devem ser realizadas
+while - quando for preciso testar a condição antes e executar a repetição do código depois
+do while - quando for preciso executar o código pelo menos 1 ve e testar depois se precisa repetir de novo a execução
+
+58. o que se parece foi if e else e pode ser usado também nas condições ?
+switch case
+
+59. o que é uma função ?
+unidade de código de programação autônoma desenhada para cumprir uma terafa particular 
+
+60. o que é uma modularização do código ?
+permitem que as pessoas trabalhem sobre o que outras já fizeram reaproveitando código, ao invés de começar do zero
+
+61. o que são chamadas de função ?
+menciona a função e fornece informações de que a função
+
+UNIDADE II
+
+1.  

@@ -1,0 +1,100 @@
+AULA III - ESTRUTURA DE DADOS
+
+- ESFRÇO COMPUTACIONAL
+MEDE A QUANTIDADE DE TRABALHO
+TEMPO DE EXECUÇÃO
+QUANTIDADE DE MEMÓRIA REQUERIDA
+
+- COMPLEXIDADE DE ALGORITMO
+CONSUMO DE RECURSOS
+MÉTODO EMPÍRICO
+MÉTODO ANALÍTICO
+
+- MÉTODO EMPÍRICO
+IMPLEMENTAR PRIMEIRO E SAIR TESTANDO DEPOIS COM AS ENTRADAS
+TEMPO GASTO COM IMPLEMENTAÇÃO E TESTES
+ESQUECER ALGUMA ENTRADA DO RESULTADO QUE PODE SER BOM OU RUIM
+
+- VANTAGENS DO MÉTODO EMPÍRICO
+RESULTADOS EXATOS
+SEM PREVISÃO OU ADEQUAÇÃO
+NENHUM ELEMENTO É DISPENSADO
+RESULTADO EXPRESSA EXATAMENTE A REALIDADE
+
+- DESVANTAGENS DO MÉTODO EMPÍRICO
+CRIAR O ALGORITMO ANTES PARA TESTAR DEPOIS
+ALOCAR COMPUTADORES, LINGUAGENS E PROGRAMADORES
+TEMPO GASTO COM A CRIAÇÃO DO CÓDIGO
+
+- MÉTODO ANALÍTICO
+ANÁLISE ASSINTÓTICA
+NÃO REQUER ESFORÇO DE IMPLEMENTAÇÃO
+TODAS AS POSSÍVEIS ENTRADAS
+RECURSOS MATEMÁTICOS
+É INDEPENDENTE DE HARDWARE OU SOFTWARE
+
+- ANÁLISE DE ALGORITMO
+MENOR TEMPO
+TEMPO MÉDIO
+MAIOR TEMPO
+
+- FATORES DE EXECUÇÃO
+ENTRADA DE DADOS
+NÚMERO DE PASSOS EXECUTADOS
+
+- TEMPO(t)
+TEMPO GASTO PRA EXECUTAR UM ALGORITMO 
+FUNÇÃO DA QUANTIDADE DE VEZES
+LINHAS DE CÓDIGO SÃO EXECUTADAS
+A QUANTIDADE DEPENDE DO TAMANHO DA ENTRADA
+
+- IMPORTANTE
+O TEMPO É UMA FUNÇÃO DO TAMANHO DA ENTRADA
+DEPENDENDO DA QUANTIDADE DE VEZES OS PASSOS SÃO EXECUTADOS
+O COMPORTAMENTO GANHA UMA TAXA DE CRESCIMENTO
+
+- Exemplo de ordenação por inserção
+Vetor é ordenado deslocando elementos maiores até achar a posição correta do valor atual.
+Exemplo detalhado com as inserções de 22, 25, 24 e 29.
+Pior caso: vetor em ordem decrescente → exige comparar cada elemento com todos os anteriores.
+Melhor caso: vetor já ordenado → apenas 1 comparação por elemento.
+
+- Quantidade de execuções
+Para n = 9 (9 elementos no vetor):
+Pior caso: linhas do código são executadas 81 vezes.
+Melhor caso: 25 execuções.
+Mesmo algoritmo, mesma entrada → a ordem dos dados muda totalmente a quantidade de passos.
+
+- Como medir desempenho
+Três formas:
+Contar atribuições → número máximo de operações.
+Número de vezes que cada linha é executada.
+Unidades de tempo por linha (ti).
+
+- Exemplo 01 – Quadrado da soma
+qds(a,b){
+   quad_a = a * a;
+   soma = 2 * a * b;
+   quad_b = b * b;
+   total = quad_a + soma + quad_b;
+   retorne total;
+}
+
+Linhas de atribuição: 4 (linhas 2 a 5).
+Executadas 1 vez cada → f(n) = 4.
+Complexidade constante (independe da entrada).
+
+- Exemplo 02 – Soma de elementos de um vetor
+soma_vet(vet[n], n){
+   soma = 0
+   para i de 1 até n
+       soma = soma + vet[i]
+   retorne soma
+}
+
+Linhas com atribuição:
+Linha 2 → 1 vez.
+Linha 3 (for) → n+1 vezes (executa uma vez a mais para falhar).
+Linha 4 → n vezes.
+Fórmula da complexidade: f(n) = 2n + 2.
+Aqui a entrada (n) influencia diretamente o desempenho.

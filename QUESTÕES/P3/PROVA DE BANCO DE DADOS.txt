@@ -1,0 +1,157 @@
+PROVA DE BANCO DE DADOS 
+
+1. Qual a diferença entre dado e informação?
+A) Dado é sempre verdadeiro, informação é sempre subjetiva
+B) Dado é um elemento bruto; informação é o dado processado e com significado
+C) Informação é usada apenas em bancos de dados
+D) Dado é o resultado final de um processamento
+
+2. O que é um CRUD na programação?
+A) Um conjunto de operações básicas: Create, Read, Update e Delete
+B) Um tipo de banco de dados
+C) Uma linguagem de programação
+D) Um sistema de gerenciamento de arquivos
+
+3. O que é um banco de dados?
+A) Um repositório físico de arquivos no sistema operacional
+B) Um conjunto estruturado de dados armazenados e acessados eletronicamente
+C) Um código que automatiza relatórios
+D) Um software de análise estatística
+
+4. O que é um SGBD?
+A) Um Sistema de Gerenciamento de Banco de Dados
+B) Um software de edição de planilhas
+C) Um protocolo de rede para bancos
+D) Um modelo de dados
+
+5. O que é consistência de dados em banco de dados?
+A) A capacidade do banco de operar offline
+B) Garantia de que os dados seguem regras e restrições definidas
+C) Armazenamento de dados em cache
+D) Duplicação de dados em tabelas diferentes
+
+6. O que é uma validade no banco de dados?
+A) Um valor sempre atualizado automaticamente
+B) A verificação de que os dados inseridos estão corretos e permitidos
+C) Um identificador exclusivo
+D) Uma política de backup
+
+7. O que é completude no banco de dados?
+A) Um tipo de chave
+B) Refere-se ao grau em que todos os dados necessários estão presentes
+C) A quantidade de tabelas no sistema
+D) A integridade física dos dados
+
+8. Quais são as 4 propriedades de uma transação no banco de dados (ACID)?
+A) Atualização, Conectividade, Independência, Durabilidade
+B) Atomicidade, Consistência, Isolamento, Durabilidade
+C) Armazenamento, Controle, Indexação, Design
+D) Acesso, Cópia, Inclusão, Deleção
+
+9. Qual a diferença entre modelo conceitual e modelo lógico no banco de dados?
+A) Não há diferença, são termos equivalentes
+B) O modelo conceitual representa a visão de alto nível; o modelo lógico detalha tecnicamente a estrutura dos dados
+C) O modelo lógico é desenhado antes do conceitual
+D) O modelo conceitual é apenas usado para gerar scripts
+
+10. O que é uma entidade em banco de dados?
+A) Um objeto que pode ser identificado de forma única no sistema, como “Cliente” ou “Produto”
+B) Uma linha de uma tabela
+C) Uma chave estrangeira
+D) Um dado não estruturado
+
+11. O que é um relacionamento em banco de dados?
+A) Um índice entre campos
+B) Uma associação entre duas ou mais entidades
+C) Um tipo de transação
+D) Uma função matemática aplicada em SQL
+
+12. O que são atributos no banco de dados?
+A) São os nomes das tabelas
+B) São as propriedades ou características de uma entidade
+C) São scripts de backup
+D) São transações de escrita
+
+13. Quais os tipos de cardinalidade no banco de dados?
+A) Binária, contínua, discreta
+B) 1:1 (um para um), 1:N (um para muitos), N:N (muitos para muitos)
+C) Primária, estrangeira, composta
+D) Ativa, passiva, relacional
+
+14. Qual a diferença entre entidades fracas e fortes?
+A) Fracas são mais usadas em projetos novos
+B) Entidades fracas não possuem chave primária própria e dependem de outra entidade; entidades fortes têm chave primária independente
+C) Fortes são relacionamentos entre bancos
+D) Fracas não podem ter relacionamentos
+
+15. O que são atributos simples no banco de dados?
+A) Aqueles que não podem ser divididos em subpartes, como “idade”
+B) Aqueles que referenciam outras entidades
+C) Aqueles usados em fórmulas
+D) Aqueles que armazenam apenas valores booleanos
+
+16. O que são atributos compostos no banco de dados?
+A) Aqueles que podem ser divididos em partes menores, como “endereço”
+B) Aqueles com tipo de dado composto
+C) Aqueles com nomes compostos
+D) Aqueles que dependem de várias entidades
+
+17. O que são atributos univalorados no banco de dados?
+A) Aqueles que armazenam apenas um valor para cada instância de entidade
+B) Atributos que não armazenam valores
+C) Atributos de bancos relacionais
+D) Atributos que são únicos por tabela
+
+18. O que são atributos multivalorados no banco de dados?
+A) Atributos compostos por outras entidades
+B) Atributos que podem armazenar mais de um valor para uma mesma instância
+C) Atributos que se repetem em várias tabelas
+D) Atributos do tipo booleano
+
+19. O que são atributos armazenados no banco de dados?
+A) Atributos cujo valor é fisicamente guardado no banco
+B) Atributos que representam procedimentos
+C) Atributos calculados dinamicamente
+D) Atributos com valor padrão nulo
+
+20. O que são atributos derivados no banco de dados?
+A) Atributos compostos por múltiplas tabelas
+B) Atributos cujo valor é calculado a partir de outros atributos, como “idade” a partir de “data de nascimento”
+C) Atributos usados apenas em joins
+D) Atributos que servem como chaves estrangeiras
+
+21. O que é chave primária no banco de dados?
+A) Uma função SQL
+B) Uma tabela especial
+C) Um atributo (ou conjunto) que identifica unicamente cada tupla em uma tabela
+D) Um índice temporário
+
+22. O que é um auto-relacionamento no banco de dados?
+A) Uma tabela com muitos relacionamentos
+B) Um relacionamento entre atributos
+C) Um relacionamento onde uma entidade se relaciona com ela mesma
+D) Um erro de modelagem
+
+gabarito :
+1 - b
+2 - a
+3 - b
+4 - a
+5 - b
+6 - b
+7 - b
+8 - b
+9 - b
+10 - a
+11 - b
+12 - b
+13 - b
+14 - b
+15 - a
+16 - a
+17 - a
+18 - b
+19 - a
+20 - b
+21 - c
+22 - c

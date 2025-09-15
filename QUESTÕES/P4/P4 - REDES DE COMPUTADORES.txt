@@ -1,0 +1,258 @@
+P4 - REDES DE COMPUTADORES
+
+1) A respeito das arquiteturas de redes, assinale a alternativa correta:
+a) A arquitetura cliente-servidor é caracterizada pela ausência de um servidor central.
+b) Na arquitetura peer-to-peer (P2P) todos os dispositivos têm funções iguais, podendo atuar como clientes e servidores.
+c) A arquitetura cliente-servidor é menos segura que a P2P em qualquer situação.
+d) A arquitetura P2P é utilizada apenas em redes locais (LAN).
+
+RESPOSTA : LETRA B
+
+2) Qual protocolo é responsável pela entrega confiável de pacotes na comunicação entre dispositivos em rede?
+a) UDP
+b) HTTP
+c) TCP
+d) FTP
+
+RESPOSTA : LETRA C
+
+3) Um exemplo de aplicação de rede voltada ao entretenimento doméstico, baseada em transmissão de conteúdo multimídia pela internet, é:
+a) Wiki
+b) IPTV
+c) FTP
+d) DHCP
+
+REPOSTA : LETRA B
+
+4) Uma empresa que deseja permitir que técnicos de suporte acessem os computadores de clientes remotamente, utilizando a rede, está fazendo uso de:
+a) Compartilhamento de recursos
+b) Compartilhamento de desktop
+c) Aplicações web
+d) Rede social corporativa
+
+RESPOSTA : LETRA B
+
+5) Entre as alternativas abaixo, qual apresenta corretamente uma aplicação comercial e uma aplicação doméstica de redes de computadores?
+a) Compartilhamento de recursos e IPTV
+b) Wiki e compartilhamento de desktop
+c) IPTV e DHCP
+d) Redes sociais e compartilhamento de desktop
+
+RESPOSTA : LETRA A
+
+--------------------------
+
+6. Na Internet, os sistemas finais que executam aplicações na borda são chamados de:
+
+A) Roteadores
+B) Switches
+C) Hospedeiros
+D) ISPs
+
+Resposta : LETRA C
+
+7. Quem é responsável por enviar e encaminhar pedaços de dados pela rede?
+
+A) Hospedeiros
+B) Roteadores e Switches
+C) Servidores de Aplicação
+D) Modem DSL
+
+Resposta : LETRA B
+
+8. Qual elemento define a taxa de transmissão em um enlace de comunicação?
+
+A) Frequência de rádio
+B) Número de hops
+C) Largura de banda
+D) Tipo de protocolo
+
+Resposta : LETRA C
+
+9. O que é considerado uma rede de redes, conectando ISPs?
+
+A) LAN
+B) WAN
+C) Núcleo da Rede
+D) Internet
+
+Resposta : LETRA D
+
+10. Qual das alternativas abaixo é um exemplo de protocolo?
+
+A) HTTP
+B) Modem
+C) Antena Direcional
+D) PON
+
+Resposta : LETRA A
+
+11. Como é chamado o conjunto de regras que definem o formato e a ordem das mensagens na comunicação?
+
+A) Arquitetura
+B) Topologia
+C) Protocolo
+D) Banda Larga
+
+Resposta : LETRA C
+
+12. Em qual parte da rede geralmente ficam localizados os servidores, que oferecem serviços a clientes?
+
+A) Núcleo da Rede
+B) Data Centers
+C) Enlaces Físicos
+D) Antenas de Rádio
+
+Resposta : LETRA B
+
+13. Qual tecnologia utiliza fibra óptica diretamente até a residência do cliente?
+
+A) DSL
+B) FTTH
+C) Cabo Coaxial
+D) Satélite LEO
+
+Resposta : LETRA B
+
+14. Qual meio físico é imune a ruído eletromagnético e transmite dados por pulsos de luz?
+
+A) Cabo de Par Trançado
+B) Cabo Coaxial
+C) Fibra Óptica
+D) Rádio Sem Fio
+
+Resposta : LETRA C
+
+15. Qual tipo de satélite permanece sempre na mesma posição sobre a superfície terrestre?
+
+A) Satélite LEO
+B) Satélite Geoestacionário
+C) Satélite Óptico
+D) Satélite Direcional
+
+Resposta : LETRA B
+
+--------------------------
+
+16. Na comutação de pacotes, qual é o princípio básico do processo de transmissão?
+a) O pacote é transmitido inteiro, sem divisão.
+b) O hospedeiro quebra as mensagens em pacotes menores.
+c) Cada pacote ocupa apenas parte da largura de banda.
+d) O roteador envia todos os pacotes ao mesmo tempo.
+
+RESPOSTA : LETRA B
+
+17. O que ocorre quando a taxa de chegada de pacotes excede a taxa de transmissão do enlace?
+a) Os pacotes são imediatamente acelerados.
+b) Os pacotes ficam na fila (enfileiramento).
+c) O roteador aumenta sua capacidade automaticamente.
+d) O atraso de propagação é eliminado.
+
+RESPOSTA : LETRA B
+
+18. Qual das alternativas representa uma função do núcleo da rede?
+a) Determinar os caminhos a serem percorridos pelos pacotes (roteamento).
+b) Gerenciar o sistema operacional do roteador.
+c) Criar novas frequências para transmissão.
+d) Substituir os pacotes perdidos por cópias automáticas.
+
+RESPOSTA : LETRA A
+
+19. No multiplexamento por divisão de frequência (FDM), o que acontece com o canal de comunicação?
+a) É dividido em slots de tempo.
+b) Cada chamada é alocada em uma banda estreita de frequência.
+c) Todos os pacotes compartilham a mesma frequência ao mesmo tempo.
+d) Cada enlace é limitado a apenas um usuário.
+
+RESPOSTA : LETRA B
+
+20. Em relação ao atraso de propagação, qual fator influencia diretamente esse atraso?
+a) A quantidade de pacotes na fila do roteador.
+b) A velocidade de propagação do meio físico.
+c) O tamanho do pacote (L).
+d) A taxa de transmissão (R).
+
+RESPOSTA : LETRA B
+
+--------------------------
+
+21. Sobre camadas de protocolos, qual alternativa descreve corretamente a função da camada de transporte?
+A) Transferência de dados entre elementos vizinhos.
+B) Transferência de dados processo a processo. 
+C) Roteamento de datagramas da origem ao destino.
+D) Conversão de bits em sinais elétricos ou ópticos.
+
+RESPOSTA : LETRA B
+
+22. No modelo de referência ISO/OSI, qual camada é responsável por permitir que aplicações interpretem o significado dos dados?
+A) Aplicação
+B) Apresentação 
+C) Sessão
+D) Enlace
+
+RESPOSTA : LETRA B 
+
+23. Qual tipo de malware se auto-replica ao receber/executar um objeto de forma passiva, sem precisar de ação do usuário?
+A) Vírus
+B) Worm 
+C) Spyware
+D) Trojan
+
+RESPOSTA : LETRA B 
+
+24. Em redes de computadores, o que é encapsulamento?
+A) Técnica de criptografia para segurança de dados
+B) Unidade de dados de protocolo (PDU) e adição de informações de controle 
+C) Processo de autenticação de usuários
+D) Transferência de pacotes de forma direta sem segmentação
+
+RESPOSTA : LETRA B
+
+25. Qual das alternativas descreve corretamente a sequência fim-a-fim para envio de dados do remetente ao destinatário?
+A) Aplicação → Transporte → Rede → Enlace → Física (Origem) … Física → Enlace → Rede → Transporte → Aplicação (Destino) 
+B) Física → Enlace → Rede → Transporte → Aplicação → Aplicação → Transporte
+C) Rede → Enlace → Física → Aplicação → Transporte
+D) Aplicação → Apresentação → Sessão → Rede → Transporte
+
+RESPOSTA : LETRA A
+
+26. Qual ferramenta permite “farejar” pacotes na rede para análise?
+A) Firewall
+B) Wireshark 
+C) VPN
+D) Switch
+
+RESPOSTA : LETRA B 
+
+27. Sobre segurança em redes, qual alternativa corresponde à definição de confidencialidade?
+A) Restringir o acesso físico aos servidores
+B) Garantir que os dados não sejam alterados durante o tráfego
+C) Proteger os dados por meio de criptografia 
+D) Autenticar usuários em sistemas
+
+RESPOSTA : LETRA C 
+
+28. Qual é a função de um firewall em uma rede?
+A) Transferir pacotes entre computadores de diferentes redes
+B) Middlebox especializado em redes de acesso e núcleo, controlando tráfego 
+C) Farejar pacotes de forma passiva
+D) Criar túneis VPN para todos os computadores da rede
+
+RESPOSTA : LETRA B 
+
+29. No exemplo da organização de viagens aéreas, qual serviço corresponde à camada de roteamento?
+A) Serviço de bagagem
+B) Serviço de portões
+C) Serviço de pista
+D) Serviço de aeronave em rota 
+
+RESPOSTA : LETRA D 
+
+30. Sobre ataques de negação de serviço (DoS), qual descrição está correta?
+A) Software que registra teclas pressionadas no teclado
+B) Atacantes tornam recursos indisponíveis para tráfego legítimo, sobrecarregando com tráfego falso 
+C) Injeção de pacotes com endereço de origem verdadeiro
+D) Permite que dados sejam transferidos de forma segura entre dois pontos
+
+RESPOSTA : LETRA B
+

@@ -1,0 +1,445 @@
+P3 - banco de dados 
+
+UNIDADE I
+
+1. como é comporto o desenvolvimento do software ?
+o que será processado ( dados ) e como será realizado o processamento
+
+2. o que é um dado ?
+fato do mundo real, que possui um signficado implícito ( sem contexto )
+
+3. o que é informação ?
+fato útil que pode ser extráido dos dados ( complenta o dado, fazendo-o ter contexto )
+
+4. ferramentas para processamento de dados ?
+processadores de texto, planilhas e sgbd
+
+5. quais os fatores que um sistema deve ter ?
+persistência, integridade, concorrência, segurança e compartilhamento
+
+6. como é composto um crud ?
+armazenar uma nova informação
+atualizar a informação
+consultar os dados armazenados
+excluir os dados
+
+7. quais os fatores que sofria a manipulação de dados antigamente ?
+dificuldade de compreensão dos dados
+forte acoolamento 
+baixo nível de abstração
+fragilidade no tratamento de falhas
+
+8. o que é um banco de dados ?
+conjunto de dados relacionados e estruturados que representam os aspectos do mundo real que devem ser mantidos no sistema
+
+9. qual a definição de banco de dados ?
+uma coleção de dados que mantém relação entre si e estão armazenados em algum dispositivo
+
+10. vantagens de um banco de dados ?
+rapidez no acesso
+redução de problemas
+diminuição do esforço humano
+utilização dos dados e controle integrado
+controle de redundância
+restringir acesso a usuários não autorizados
+backup e recuperação
+múltiplas interfaces
+restrições de integridade
+
+11. qual a abordagem do banco de dados ?
+um único repositório mantém dados que são definidos uma vez e depois acessados por vários usuários
+
+12. o que é o sgbd ?
+software que permite a criação e a manipulação de um banco de dados
+
+13. quais são o conjunto de progrmas do sgbd ?
+descrever, armazenar, tratar, manipular e compartilhar
+
+14. quais são as propriedades dos sgbd's?
+consistência, validade e completeza
+
+15. o que é consistência de dados ?
+o sgbd avalia os dados recebidos através de regras de integridade, para gantir que todos estarão corretos
+
+16. o que é validade de dados ?
+são válidos quando pertencem ao domínio de valores possíveis naquele caso
+
+17. o que é completeza de dados ?
+todos os dados que precisam ser conhcecidos estão disponíveis 
+
+18. o que são transações em banco de dados ?
+conjunto de operações que devem ser executados de forma completa para manter a consistência do banco 
+
+19. quais são os 4 pilares da transação de banco de dados ?
+atomicidade, consistência, isolamento e durabilidade
+
+20. o que é atomicidade ?
+garante que uma transação seja tudo ou nada, se uma parte falhar, toda a transação é revertida
+
+21. o que é consistência ?
+garante que o banco de dados passe de um estado válido para outro válido
+
+22. o que é isolamento ?
+garante que transações concorrentes sejam executados sem interferência indevida, impedindo efeitos colaterais inesperados
+
+23. o que é durabilidade ?
+garante que uma transação confirmada será persistida permanentemente, mesmo após falhas
+
+24. quais são as etapas pra criar um banco de dados ?
+i - modelagem conceitual
+ii - modelagem lógica
+iii - projeto físico
+
+25 - qual o conceito de modelagem ?
+representação abstrata e simplificada de uma realidade, descrição dos tipos de informações que serão armazenadas, usa linguagem gráfica ou textual
+
+26. o que é o modelo conceitual ?
+modelo de dados abstratos, representa o mundo natural, esconde os detalhes 
+
+27. o que é o modelo lógico ?
+representa a estrutura de dados dependente de um paradigma, possui detalhes
+
+28. o que é o modelo físico ?
+representação gráfica do detalhamento das estruturas do banco de dados 
+
+29. qual o processo de fazer uma modelagem ?
+existe uma realidade - observa - analisa - organiza as ideias - define o modelo conceitual - define o modelo lógico - define o modelo físico - cria o banco de dados
+
+30. quais são os conceitos importantes do banco de dados ?
+i - modelo de dados ( escopo )
+ii - esquema de dados ( título das colunas )
+iii - instância de um banco de dados ( dados )
+
+31. o que é uma modelagem de dados ?
+consiste em mapear o mundo real do sistema em um modelo gráfico que irá representar o modelo e o relacioamento existente entre os dados
+
+32. o que é análise de requisitos ?
+interação com o cliente e com os usuários finais do banco de dados, é a identificação das características do domínio de aplicação
+
+33. o que é um projeto conceitual ?
+desenvolvimento de um esquema de descreve a semântica do domínio de aplicação e que deve ser facilmente compreendido e voltado para os usuários
+
+34. quais as etapas do projeto de banco de dados ?
+entidade, atributos e relacionamento
+
+35 . quais as formas dos tipos de elemento ?
+retangulo - entidade, losango - relacionamento, elipse - atributo
+
+36. qual o nome do esquema conceitual ?
+diagrama entidade-relacionamento ( der )
+
+37. qual o objetivo da modelagem ?
+representar, através de entidades e seus relacionamentos, as informações do negócio necessárias para o funcionamento da apliação
+
+38. o que é um auto-relacionamento ?
+caso especial no qual há um relacionamento entre a mesma entidade
+
+39, qual o grau dos relacionamentos ?
+binário e ternário
+
+40. o que é cardinalidade ?
+indica quantos elementos de cada entidade fazem parte da relação, existe quatro tipos, um para um ( 1..1 ), um para muitos ( 1...n ), muitos para um ( n...1 ), muitos para muitos ( m...n )
+
+41. o que é um relacionamento recursivo ?
+relacionam duas ou mais instâncias de uma mesma entidade
+
+42. o que é uma restrição de participação ?
+determina o número mínimo de elementos de um entidade que fazem parte do relacionamento
+
+43. o que é restrição de participação total ?
+inidca que todas as instâncias de uma entidade devem participar do relacionamento
+
+44. o que é restrição de participação parcial 
+indica que algumas instâncias da entidade devem fazer parte do relacionamento
+
+45. o que são entidades fracas ?
+são entidade cuja existência depende de outra entidade
+
+46. qual a diferença de atributos simples e compostos ?
+simples - não podem ser subdivivdos em partes menores
+compostos - podem ser divididos em partes menores
+
+47. qual a diferença de atributos univalorados ou monovalorados ?
+univalorados - a entidade possui um único valor para este atributo
+mutivalorados - a entidade pode ter vários valores para um determinado atributo
+
+48. qual a diferença dos atributos armazenados e derivados ?
+armazenados - são aqueles cujo valor é armazenado no banco de dados
+derivados - aqueles cujo valor pode ser derivad através do valor de um ou mais atributos armazenados
+
+49.o que é valor desconhecido ?
+o valor não se aplica a um determinado elemento do conjunto de entidades
+
+50. o que é atributo chaves ?
+são únicos para cada elemento de um conjunto de entidades que pode ser representado também pela composição de dois ou mais atributos
+
+51. qual a função de um projetista de um banco de dados ?
+realiza a definição e organização das tabels decidindo quais campos deverão se relacionar
+
+52. o que são tabelas ?
+correspondem ao principal elemento do modelo relacional, todas as informações de um banco estarão armazendas nelas, é um conjunto não ordenado de linhas, composta por campos que recebe um atributo
+
+53. o que são atributos ?
+representam as colunas das tabelas, todos os valores de uma coluna tem o mesmo tipo de dados e o nome de um atributo deve ser único dentro da relação
+
+54. o que são domínios ?
+representam o conjunto de valores possíevis para um determinado atributo, cada domínio é ligado a um tipo de dado, cada domínio pode ter um formato de valor específico
+
+55. o que são tuplas ?
+representam cada linha armazenada em uma tabela, representam os dados armazenados no banco de dados, todas as tuplas de uma tabela devem ser distintas
+
+56. o que são chaves primárias ?
+os valores distinguem uma linha das demais dentro da tabela, 
+
+UNIDADE II
+
+- LINGUAGEM PADRÃO PARA OS BANCOS DE DADOS USADOS EM TODOS OS SGBD'S
+
+- LINGUAGEM CRIADA PELA IBM, CHAMA-SE SQL
+
+- DIVISÃO DA LINGUAGEM SQL EM : 
+   - NÚCLEO : PRINCIPAIS ELEMENTOS DA LINGUAGEM
+   - PACOTES ADICIONAIS : APLICAÇÕES ESPECÍFICAS DE BD
+
+- O NÚCLEO DO SQL SE DIVIDE EM :
+    - DDL : CRIAÇÃO, ALTERAÇÃO E REMOÇÃO DE TABELAS E ÍNDICES
+    - DML : INSERÇÃO, CONSULTA, ALTERAÇÃO E MODIFICAÇÃO DE TUPLAS
+    - MANIPULAÇÃO DE DADOS EMBUTIDA : ACESSO AO BD PELA LINGUAGEM DE PROGRAMAÇÃO
+    - DEFINIÇÃO DE VISÕES : A PARTIR DE TABELAS JÁ CRIADAS
+
+- DML É A LINGUAGEM PARA MANIPULAÇÃO DE DADOS 
+     - INSERT : USADA PARA INSERIR UM REGISTRO A UMA TABELA
+     - UPDATE : MUDAR OS VALORES DE DADOS NAS LINHAS
+     - DELETE : REMOVER LINHAS EXISTENTES
+
+- DDL PERMITE DEFINIR TABELAS NOVAS E ELEMENTOS ASSOCIADOS 
+      - CREATE : CRIA UM OBJETO DENTRO DA BASE DE DADOS
+            - CREATE TABLE : CRIA UMA NOVA TABELA
+            - CREATE INDEX : CRIA UM NOVO ÍNDICE
+            - CREATE VIEW : CRIA UMA NOVA VISÃO 
+
+      - DROP : APAGA UM OBJETO DO BANCO DE DADOS
+            - DROP TABLE : APAGA UMA TABELA 
+            - DROP INDEX : APAGA UM ÍNDICE
+            - DROP VIEW : APAGA UMA VISÃO
+
+       - ALTER : ALTERA UM OBJETO DO BANCO DE DADOS
+             - ALTER TABLE : ALTERA UMA TABELA
+             - ALTER INDEX : ALTERA UM ÍNDICE
+             - ALTER VIEW : ALTERA UMA VISÃO
+
+- TIPOS NÚMERICOS :
+      - INT OU INTEGER : NÚMEROS INTEIROS
+      - SMALLINT : NÚMEROS INTEIROS PEQUENOS
+      - REAL : NÚMEROS REAIS COM PRECISÃO SIMPLES
+      - DOUBLE PRECISION : NÚMERO REAL COM PRECISÃO DUPLA
+      - FLOAT : PONTO FLUTUANTE
+      - NUMERIC (P, D) : PONTO FLUTUANTE ( P É A PRECISÃO E D É O NÚMERO DE CASAS ) 
+
+- CADEIAS DE CACTERES :
+      - CHAR OU CHARACTER : CARACTERES DE TAMANHO FIXO
+      - VARCHAR : CADEIA DE CARACTERES COM TAMANHO VARIÁVEL 
+      - CHARACTER LARGE OBJETC (CLOB) : ARMAZENAR STRINGS COMO TEXTOS
+
+- CADEIAS DE BITS :
+      - BIT : BITS DE TAMANHO FIXO
+      - BIT VARYING : BITS DE TAMANHO VARIÁVEL
+      - BINARY LARGE OBJECT (BLOB) : GRANDES QUANTIDADES DE BITS COMO VÍDEOS
+
+- TIPOS BOOLEANOS :
+      - BOOLEAN : VALORES DE TRUE, FALSE OU UNKNOW
+
+- DATA E HORA :
+      - DATE : DATAS EM FORMATO AAAA-MM-DD
+      - TIME : UMA HORA NO FORMATO HH:MM:SS
+
+- DEFINIÇÃO DE UM ATRIBUTO :
+      - NOME : NOME DO ATRIBUTO
+      - TIPO : TIPO DE DADO
+      - NOT NULL : O VALOR (DADO) NÃO PODE SER NULO
+      - UNIQUE : O VALOR (DADO) É ÚNICO
+      - DEFAULT : DEFINIR UM VALOR (DADO) CASO NÃO SEJA ATRIBUIDO NADA
+
+- RESTRIÇÕES :
+     - CHAVE PRIMÁRIA : PRIMARY KEY (ATRIBUTOS_CHAVES);
+     - CHAVE ESTRANGEIRA : FOREIGN KEY (ATRIBUTO) REFERENCES TABELA_BASE(ATRIBUTO);
+     - RESTRIÇÕES DE INTEGRIDADE : CHECK(CONDIÇÃO)
+
+- EXEMPLO :
+     - FORNECEDOR (CODIGO, NOME, CIDADE);
+     - PEÇA (CODIGO, NOME, DESCRICAO);
+     - VENDA (CODFORNECEDOR, CODPECA, QUANTIDADE, DATA);
+
+CREATE TABLE FORNECEDOR (
+     CODIGO INT,
+     NOME VARCHAR (20) NOT NULL,
+     CIDADE VARCHAR (20) NOT NULL,
+     PRIMARY KEY (CODIGO)
+)
+
+CREATE TABLE PECA (
+     CODIGO INT,
+     NOME VARCHAR (20) NOT NULL,
+     DESCRICAO (50) NOT NULL,
+     PRIMARY KEY (CODIGO)
+)
+
+CREATE TABLE VENDA (
+     CODFONECEDOR INT,
+     CODPECA INT,
+     QUANTIDADE INT DEFAULT 1,
+     DATA DATE, 
+     PRIMARY KEY (CODFORNECEDOR, CODPECA),
+     FOREIGN KEY (CODFORNECEDOR) REFERENCES FORNECEDOR (CODIGO),
+     FOREIGN KEY (CODPECA) REFERENCES PECA (CODIGO)
+)
+
+- INTEGRIDADE REFENCIAL :
+     - ATUALIZAÇÃO : ON UPDATE
+     - EXCLUSÃO : ON DELETE
+
+- DEFININDO CHAVES ESTRANGEIRAS :
+     - RESTRIC : ATUALIZAÇÃO OU REMOÇÃO É REJEITADA
+     - CASCADE : ATUALIZAÇÃO OU EXCLUSÃO É PROPAGADA PARA AS TUPLAS RELACIONADAS
+     - SET NULL : TEM O VALOR DA CHAVE ESTRANGEIRA ALTERADA PARA NULL
+     - SET DEFAULT : TEM O VALOR DA CHAVE ESTRANGEIRA ALTERADA PARA DEFAULT
+
+EXEMPLO :
+
+CREATE TABLE VENDA (
+     CODFORNECEDOR INT,
+     CODPECA INT,
+     QUANTIDADE INT DEFAULT 1,
+     DATA DATE,
+     PRIMARY KEY (CODFORNECEDOR, CODPECA),
+     FOREIGN KEY (CODFORNECEDOR) REFERENCES FORNECEDOR (CODIGO) ON DELETE
+            RESTRIC ON UPDATE CASCADE,
+     FOREIGN KEY (CODPECA) REFERENCES PECA (CODIGO) ON DELETE
+           RESTRIC ON UPDATE CASCADE
+)
+
+- NOMEANDO AS RESTRIÇOES :
+     - UTILIZA O "CONSTRAINT" 
+
+EXEMPLO :
+
+CREATE TABLE VENDA (
+     CODFORNECEDOR INT,
+     CODPECA INT,
+     QUANTIDADE INT DEFAULT 1,
+     DATA DATE,
+     PRIMARY KEY (CODFORNECEDOR, CODPECA),
+     CONSTRAINT REFERENCIA_CODFORNECEDOR
+     FOREIGN KEY (CODFORNECEDOR) REFERENCES FORNECEDOR (CODIGO) ON DELETE
+            RESTRIC ON UPDATE CASCADE,
+     CONSTRAINT REFERENCIA_CODPECA
+     FOREIGN KEY (CODPECA) REFERENCES PECA (CODIGO) ON DELETE
+           RESTRIC ON UPDATE CASCADE
+)
+
+- ADICIONANDO UM ATRIBUTO NA TABELA :
+      - ALTER TABLE EMPREGADO ADD CPF VARCHAR(14) 
+      OBS : NÃO PODE USAR O NOT NULL, POIS ELE NÃO SE APLICA
+
+- REMOVENDO UM ATRIBUTO NA TABELA :
+      - ALTER TABLE EMPREGADO DROP SALARIO CASCADE 
+      OBS : PODE USAR AS OPÇÕES CASCADE OU RESTRICRT
+
+- ALTERANDO A DEFINIÇÃO DA COLUNA :
+      - ALTER TABLE VENDA ALTER QUANTIDADE SET DEFAULT 2
+      OBS : SE USA AS DEFINIÇÕES ALTER E SET
+
+- ADICIONANDO E REMOVENDO RESTRIÇÕES :
+      - ALTER TABLE VENDA ADD CONSTRAINT QUANTPOSITIVA CHECK (QUANTIDADE >= 0)
+      OBS : UTILIZA A CLÁUSULA ADD CONSTRAINT
+
+      - ALTER TABLE VENDA DROP CONSTRAINT QUANTPOSITIVA
+      OBS : UTILIZA A CLÁUSULA DROP CONSTRAINT
+
+- REMOVER UMA TABELA COMPLETA JUNTO COM SEUS ATRIBUTOS :
+      - DROP TABLE VENDA CASCADE 
+      OBS : UTILIZA DROP E AS OPÇ~ES CASCADE OU RESTRICT
+
+- COLOCANDO DADOS NAS COLUNAS :
+      - INSERT INTO TABELA VALUES (VALOR1, VALOR2, VALOR3, ..., VALOR N)
+      - A ORDEM DOS VALORES DEVE SER A MESMA ORDEM DOS ATRIBUTOS DEFINIDOS NA TABELA 
+
+- EXEMPLO :
+
+JANDERSON, COM MATRÍCULA 1111-5, SÁLARIO DE R$ 2000,00, SUPERVISONADO POR FRANCISCO COM MATRÍCULA DE 1111-4 E QUE TRABALHA NO DEPARTAMENTO 1
+
+INSERT INTO EMPREGADO 
+VALUES ('JANDERSON', '1111-5', '2000', 'fRANCISCO', '1111-4', 1)
+
+- COMANDO DELETE :
+      - SERVE PARA EXCLUIR TUPLAS DE UMA TABELA
+      - DELETE FROM TABELA WHERE CONDIÇÃO 
+
+- EXEMPLO :
+      - DELETE FROM TRABALHA_PROJETO WHERE CODPROJETO=2
+
+- EXEMPLO PRÁTICO :
+
+      - ALTER TABLE FUNCIONARIO ADD PRIMARY KEY (CODIGO)
+      - ADICIONA CHAVE PRIMÁRIA CODIGO NA TABELA FUNCIONARIO
+
+     - ALTER TABLE FUNCIONARO ADD CATEGORIA VARCHAR(10) DEFAULT 'JUNIOR'
+     - ADICIONA A COLUNA CATEGORIA COM O TIPO VARCHAR(10) E VALOR DEFAULT 'JUNIOR'
+
+     - ALTER TABLE FUNCIONARIO DROP COLUMN SALARIO
+     - EXCLUI A COLUNA SALRIO DA TABELA FUNCIONARIO
+
+     - ALTER TABLE FUNCIONARIO ADD CONSTRAINT NIVEL CHECK (CATEGORIA IN ('JUNIOR', 'PLENO', 'SÊNIOR))
+     - ADICIONA UMA RESTRIÇÃO NÍVEL PARA A CHECAGEM DE VALORES DA COLUNA CATEGORIA DA TABELA FUNCIONÁRIO
+
+     - ALTER TABLE FUNCIONARIO DROP CHECK NIVEL
+     - EXCLUI A RESTRIÇÃO NÍVEL NA TABELA FUNCIONÁRIO
+
+     - ALTER TABLE FUNCIONARIO MODIFY CATEGORIA CHAR(25)
+     - MODIFICA O TIPO DA COLUNA PARA CHAR(25) NA TABELA FUNCIONÁRIO
+
+     - ALTER TABLE FUNCIONARIO CHANGE NOME NOMECOMPLETO VARCHAR(25)
+     - MUDA O NOME DA COLUNA NOME PARA NOMECOMPLETO E ALTERA O SEU TIPO PARA VARCHAR(55) NA TABELA FUNCIONÁRIO
+
+     - RENAME TABLE FUNCIONARIO TO EMPREGADO
+     - RENOMEIA O NOME DA TABELA FUNCIONÁRIO PARA EMPREGADO 
+
+     - ALTER TABLE EMPREGADO ADD PRIMARY KEY (CODIGO)
+     - ADICIONA UMA RESTRIÇÃO DA CHAVE PRIMÁRIA SOBRE O CAMPO CODIGO NA TABELA FUNCIONÁRIO
+
+     - ALTER TABLE EMPREGADO ADD CONSTRAINT FK_REL FOREIGN KEY (CODDEPT) REFERENCES DEPARTAMENTO (CODIGO) 
+     - ADICIONA UMA RESTRIÇÃO DA CHAVE ESTRANGEIRA SOBRE O CAMPO CODDEP NA TABELA FUNCIONÁRIO
+
+     - ALTER TABLE EMPREGADO DROP PRIMARY KEY
+     - EXCLUI A CHAVE PRIMÁRIA DA TABELA FUNCIONÁRIO
+
+     - DROP TABLE EMPREGADO 
+     - EXCLUI A TABELA EMPREGADO
+
+     - DROP DATABASE EMPRESA
+     - EXCLUI O BANCO DE DADOS EMPRESA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

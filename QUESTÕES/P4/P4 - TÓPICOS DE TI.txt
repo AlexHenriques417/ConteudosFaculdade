@@ -1,0 +1,83 @@
+P4 - TÓPICOS DE TI 
+
+QUESTÕES
+
+1. Sobre o TypeScript, é correto afirmar que:
+a) É uma linguagem que substitui totalmente o JavaScript.
+b) Não oferece nenhum recurso adicional em relação ao JavaScript.
+c) É uma linguagem que compila para JavaScript, oferecendo tipagem estática. 
+d) É usada apenas para desenvolvimento de back-end.
+
+RESPOSTA : LETRA C
+
+2. Uma das vantagens do TypeScript em relação ao JavaScript é:
+a) Aumentar a chance de erros em tempo de execução.
+b) Evitar erros de tipo antes da execução do código. 
+c) Ser menos legível que o JavaScript.
+d) Remover a necessidade de compilar para rodar no navegador.
+
+RESPOSTA : LETRA B 
+
+3. Na pirâmide de linguagens/tecnologias apresentadas, a ordem correta é:
+a) JS → ES6 → TYPE 
+b) TYPE → JS → ES6
+c) ES6 → TYPE → JS
+d) JS → TYPE → ES6
+
+RESPOSTA : LETRA A
+
+4. Qual das opções apresenta corretamente um tipo primitivo em TypeScript?
+a) integer
+b) string 
+c) float
+d) char
+
+RESPOSTA : LETRA B
+
+5. Para representar um tipo que pode ser string ou number, usamos em TypeScript:
+a) union type 
+b) any
+c) array
+d) tuple
+
+RESPOSTA : LETRA A
+
+6. Qual dos símbolos pode ser usado para declarar uma string em TypeScript/JavaScript?
+a) #texto#
+b) 'texto' 
+c) <texto>
+d) (texto)
+
+RESPOSTA : LETRA B
+
+7. O operador ternário é utilizado para:
+a) Repetir instruções diversas vezes.
+b) Definir variáveis globais.
+c) Fazer uma verificação condicional em uma única linha. 
+d) Declarar funções assíncronas.
+
+RESPOSTA : LETRA C
+
+8. Qual loop garante que o bloco de código seja executado pelo menos uma vez?
+a) for
+b) while
+c) do while 
+d) for…of
+
+RESPOSTA : LETRA C
+
+9. No modelo Cliente-Servidor, a sequência correta é:
+a) Cliente → HTTP Response → Servidor
+b) Cliente → HTTP Request → Servidor 
+c) Servidor → DNS → Cliente
+d) Cliente → Banco de Dados → Servidor
+
+RESPOSTA : LETRA B
+
+10. Em operações CRUD, a letra “U” representa:
+a) Upload
+b) Update 
+c) Unlock
+d) Undo
+
+RESPOSTA : LETRA B
