@@ -15,12 +15,12 @@ ES6
 JS
 
 - CRIAÇÃO DE VARIÁVEIS
-tipos primitivos (number, string, boolean)
-inferência de tipos
-array(tipo[] ou Array<tipo>)
-any
-union type -> tipo | tipo | undefined
-tipos literais
+TIPOS PRIMITIVOS (NUMBER, STRING, BOOLEAN)
+INFERÊNCIA DE TIPOS
+ARRAY(TIPO[] OU ARRAY<TIPO>)
+ANY
+UNION TYPE -> TIPO | UNDEFINED
+TIPOS LITERAIS
 
 - OBJETOS
 TYPE ALIAS E INTERFACE
@@ -37,16 +37,15 @@ IF, ELSE, IF ELSE
 WHILE, DO WHILE E FOR
 
 - FUNÇÕES
-modos diferentes de declarar
-tipo dos parâmetros
-parâmetros opcionais e com valor padrão
-tipo do retorno e void
+MODOS DIFERENTES DE DECLARAR 
+TIPOS DOS PARÂMETROS
+PARÂMETROS OPCIONAIS E COM VALOR PADRÃO
+TIPO DO RETORNO E VOID
 
 - ARRAYS
-desestruturação
-spread operator - cópia
-for…of
-forEach, map, filter
+DESESTRUTURAÇÃO
+FOR...OF
+MAP, REDUCE E FILTER
 
 - ARQUITETURA CLIENTE - SERVIDOR
 CLIENTE -> IP -> DNS ( VICE VERSA )
