@@ -389,3 +389,144 @@ c) A qualidade do software e maior produtividade.
 d) A eliminação da necessidade de testes.
 
 RESPOSTA : LETRA C 
+
+--------------------------
+
+46. Sobre a modelagem de sistemas, é correto afirmar que:
+
+a) Serve apenas para a etapa de codificação.
+b) Explica características ou comportamentos de um sistema.
+c) É restrita ao processo em cascata.
+d) Substitui totalmente a documentação de requisitos.
+
+RESPOSTA : LETRA B
+
+47. Entre as vantagens de modelar sistemas, podemos citar:
+
+a) Aumenta a complexidade e dificulta a comunicação.
+b) Facilita a análise, melhora a comunicação e diminui erros.
+c) Elimina a necessidade de testes.
+d) Serve apenas para agilizar a programação.
+
+RESPOSTA : LETRA B
+
+48. A UML (Unified Modeling Language) pode ser definida como:
+
+a) Uma linguagem de programação para implementar sistemas orientados a objetos.
+b) Uma metodologia de desenvolvimento que define quem faz o quê e quando.
+c) Uma linguagem visual padronizada para modelar sistemas orientados a objetos.
+d) Um método exclusivo para o processo em espiral.
+
+RESPOSTA : LETRA C
+
+49. Entre as vantagens da UML, podemos destacar:
+
+a) Elimina completamente a necessidade de analistas de sistemas.
+b) Permite visão geral do sistema, padronização e suporte por ferramentas.
+c) Substitui o código-fonte do sistema.
+d) Só pode ser usada em sistemas ágeis.
+
+RESPOSTA : LETRA B
+
+50. O diagrama de casos de uso tem como principal objetivo:
+
+a) Mostrar a ordem temporal de mensagens trocadas entre objetos.
+b) Representar mudanças de estado de um objeto.
+c) Descrever usuários e funcionalidades do sistema.
+d) Definir a estrutura de classes e seus relacionamentos.
+
+RESPOSTA : LETRA C 
+
+--------------------------
+
+51. O diagrama de casos de uso tem como principal objetivo:
+
+a) Mostrar o comportamento interno do sistema.
+b) Descrever como o sistema será implementado.
+c) Representar a visão externa das funções e serviços que o sistema deve oferecer.
+d) Detalhar o código-fonte do sistema.
+
+RESPOSTAS : LETRA C
+
+52. Sobre o uso do diagrama de casos de uso, é correto afirmar que:
+
+a) É utilizado apenas na fase de codificação.
+b) Deve ser criado apenas no final do desenvolvimento.
+c) É usado nas etapas de levantamento e análise de requisitos e pode ser modificado durante o processo.
+d) Não pode servir de base para outros diagramas.
+
+RESPOSTAS : LETRA C
+
+53. Em relação aos elementos do diagrama de casos de uso, assinale a alternativa correta:
+
+a) Atores são representados por elipses e casos de uso por bonecos-palito.
+b) Casos de uso representam funcionalidades do sistema e são mostrados em elipses.
+c) Relacionamentos de inclusão (<<include>>) indicam comportamentos opcionais.
+d) A fronteira do sistema não deve ser representada no diagrama.
+
+RESPOSTAS : LETRA B
+
+54. Sobre os tipos de relacionamentos em casos de uso:
+
+a) Associação liga atores a casos de uso.
+b) Generalização representa comportamento opcional.
+c) Extensão (<<extends>>) indica comportamento obrigatório.
+d) Inclusão (<<include>>) significa comportamento opcional.
+
+RESPOSTA : LETRA A
+
+55. Um erro comum na elaboração de casos de uso é:
+
+a) Criar casos de uso que gerem resultados perceptíveis para o ator.
+b) Fazer casos de uso pequenos demais, como “incrementar contador”.
+c) Usar cenários textuais para descrever interações.
+d) Associar casos de uso a telas do sistema.
+
+RESPOSTA : LETRA B
+
+--------------------------
+
+56. Um dos principais benefícios do modelo de casos de uso para o cliente é:
+
+a) Garantir que o código seja escrito corretamente.
+b) Capturar e validar requisitos, definir escopo e estimar prazos e custos.
+c) Implementar testes automatizados.
+d) Elaborar diagramas detalhados de classes.
+
+RESPOSTA : LETRA B
+
+57. Na especificação detalhada de um caso de uso, o ator primário é:
+
+a) O sistema que executa o caso de uso.
+b) A pessoa ou sistema que inicia o caso de uso.
+c) Qualquer ator que apoie a interação.
+d) O responsável por criar o diagrama de casos de uso.
+
+RESPOSTA : LETRA B
+
+58. Sobre os formatos de descrição de casos de uso, é correto afirmar que:
+
+a) O formato contínuo usa texto livre e o numerado organiza passos sequenciais.
+b) O formato contínuo organiza passos sequenciais e o numerado usa texto livre.
+c) Ambos os formatos são obrigatórios para todos os casos de uso.
+d) Apenas o formato numerado é aceito pela UML.
+
+RESPOSTA : LETRA B
+
+59. Em relacionamentos na especificação de casos de uso, a diferença entre inclusão (<<include>>) e extensão (<<extends>>) é:
+
+a) Inclusão é opcional; extensão é obrigatória.
+b) Inclusão é obrigatória; extensão é opcional.
+c) Ambos indicam comportamento opcional.
+d) Ambos indicam comportamento obrigatório.
+
+RESPOSTA : LETRA B
+
+60. Sobre a descrição detalhada de casos de uso, o fluxo principal refere-se a:
+
+a) Situações que comprometem o funcionamento do sistema.
+b) Opções ou variações de uso.
+c) A sequência normal de passos do ponto de vista do usuário.
+d) Condições que devem estar presentes antes de iniciar o caso de uso.
+
+RESPOSTA : LETRA C 
