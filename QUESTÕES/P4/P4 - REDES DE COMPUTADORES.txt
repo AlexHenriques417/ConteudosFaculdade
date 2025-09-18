@@ -256,3 +256,85 @@ D) Permite que dados sejam transferidos de forma segura entre dois pontos
 
 RESPOSTA : LETRA B
 
+--------------------------
+
+31. Sobre a camada de aplicação, é correto afirmar que:
+a) Executa apenas em roteadores.
+b) Executa em sistemas finais diferentes e permite a comunicação pela rede.
+c) Só funciona em switches e hubs.
+d) É responsável por configurar endereços IP.
+
+RESPOSTA : LETRA B
+
+32. No modelo cliente-servidor, o servidor é caracterizado por:
+a) Ter endereço IP dinâmico e se conectar de forma intermitente.
+b) Estar sempre ligado, possuir IP permanente e geralmente localizado em data centers.
+c) Iniciar a comunicação sempre com o cliente.
+d) Nunca hospedar aplicações de rede.
+
+RESPOSTA : LETRA B
+
+33. No modelo cliente-servidor, o cliente:
+a) Contata o servidor e pode ter endereço IP dinâmico.
+b) Sempre possui IP permanente.
+c) Comunica-se diretamente com outros clientes.
+d) É um dispositivo do núcleo da rede.
+
+RESPOSTA : LETRA A 
+
+34. Sobre a arquitetura Peer-to-Peer (P2P), assinale a alternativa correta:
+a) Depende de um servidor central sempre ligado.
+b) Os pares se comunicam diretamente e podem mudar de IP de forma intermitente.
+c) É menos escalável que cliente-servidor.
+d) Não permite compartilhamento de serviços entre pares.
+
+RESPOSTA : LETRA B 
+
+35. Em relação a processos e sockets:
+a) Um processo é apenas um arquivo armazenado no servidor.
+b) Processos em diferentes hospedeiros se comunicam trocando mensagens via socket.
+c) Um socket não é necessário para enviar/receber mensagens.
+d) Dois processos no mesmo hospedeiro não podem se comunicar.
+
+RESPOSTA : LETRA B
+
+36. Sobre os protocolos de transporte TCP e UDP, marque a alternativa correta:
+a) O TCP é orientado à conexão, confiável e possui controle de fluxo.
+b) O UDP é confiável e garante vazão mínima.
+c) O TCP oferece criptografia nativamente.
+d) O UDP oferece controle de congestionamento.
+
+RESPOSTA : LETRA A 
+
+37. O protocolo HTTP é classificado como:
+a) Protocolo de transporte confiável.
+b) Protocolo de aplicação sem estado, que utiliza o TCP (porta 80).
+c) Protocolo de rede que usa IP diretamente.
+d) Protocolo proprietário de troca de mensagens.
+
+RESPOSTA : LETRA B
+
+38. No HTTP não persistente, cada objeto requisitado pelo cliente:
+a) Usa uma única conexão TCP já aberta para todos os objetos.
+b) Requer uma nova conexão TCP (2 RTTs + tempo de transmissão por objeto).
+c) Usa o protocolo UDP para reduzir latência.
+d) Não necessita do uso de sockets.
+
+RESPOSTA : LETRA B
+
+39. Sobre os métodos HTTP, associe corretamente:
+a) GET → enviar dados no corpo da mensagem.
+b) POST → incluir dados na URL após o “?”.
+c) HEAD → solicitar apenas cabeçalhos de resposta.
+d) PUT → solicitar apenas o status da conexão.
+
+RESPOSTA : LETRA C
+
+40. O TLS (Transport Layer Security) acrescenta ao TCP:
+a) Criptografia, integridade de dados e autenticação ponto a ponto.
+b) Garantia de vazão mínima.
+c) Redução automática de RTT.
+d) Protocolo substituto ao HTTP.
+
+RESPOSTA : LETRA A 
+
