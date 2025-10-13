@@ -1,0 +1,83 @@
+P4 - ESTRUTURAS DE DADOS 
+
+QUESTÕES
+
+1. As estruturas de dados lineares são caracterizadas por:
+a) Não possuírem ordem definida
+b) Permitir inserções e remoções em qualquer posição
+c) Serem organizadas de forma sequencial, com predecessor e sucessor
+d) Terem nós conectados de forma hierárquica
+
+Resposta : Letra C
+
+2. Em uma lista encadeada, cada nó:
+a) Guarda apenas o conteúdo
+b) Guarda o conteúdo e o ponteiro para o próximo nó
+c) Guarda apenas o ponteiro do nó anterior
+d) Aponta sempre para o primeiro nó da lista
+
+Resposta : Letra B
+
+3. Nas listas duplamente encadeadas, cada nó:
+a) Aponta apenas para o próximo nó
+b) Aponta apenas para o nó anterior
+c) Guarda o conteúdo, o nó predecessor e o sucessor
+d) Está sempre ligado ao nó raiz
+
+Resposta : Letra C
+
+4. Em uma fila, os elementos são organizados segundo a política:
+a) LIFO – Last In, First Out
+b) FIFO – First In, First Out
+c) FILO – First In, Last Out
+d) LILO – Last In, Last Out
+
+Resposta : Letra B
+
+5. A pilha é uma estrutura de dados onde:
+a) O primeiro elemento a entrar é o primeiro a sair
+b) O último elemento a entrar é o último a sair
+c) O último elemento a entrar é o primeiro a sair
+d) Todos os elementos são acessados simultaneamente
+
+Resposta : Letra C
+
+6. O deque (Double Ended Queue) permite:
+a) Inserção apenas no início
+b) Inserção e remoção em ambos os extremos
+c) Acesso apenas ao último elemento
+d) Somente leitura dos elementos
+
+Resposta : Letra B
+
+7. Em uma árvore binária, os nós:
+a) São organizados de forma linear
+b) Sempre possuem dois pais
+c) São conectados por arestas e formam uma hierarquia
+d) Estão dispostos em formato circular
+
+Resposta : Letra C
+
+8. Um nó folha em uma árvore é:
+a) Um nó que possui apenas um filho
+b) Um nó que não possui filhos
+c) O primeiro nó da árvore
+d) Um nó com grau maior que zero
+
+Resposta : Letra B
+
+9. A especialização é um tipo de relacionamento que indica:
+a) “É parte de”
+b) “É feito de”
+c) “É um” ou “É uma”
+d) “Depende de”
+
+Resposta : Letra C
+
+10. Na composição, podemos afirmar que:
+a) As partes existem independentemente do todo
+b) O todo e as partes são independentes
+c) A parte não existe sem o todo
+d) Cada parte tem seu próprio ciclo de vida
+
+Resposta : Letra C

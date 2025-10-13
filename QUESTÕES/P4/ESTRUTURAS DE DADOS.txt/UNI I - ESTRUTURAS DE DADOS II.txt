@@ -1,11 +1,10 @@
-P4 - ESTRUTURAS DE DADOS II
+P4 - ESTRUTURAS DE DADOS 
 
 QUESTÕES 
 
 1. O que é pseudocódigo e qual sua principal finalidade?
 
-Resposta :
-Pseudocódigo é uma forma de descrever algoritmos utilizando uma linguagem intermediária entre a linguagem natural e a linguagem de programação. Sua finalidade é facilitar o entendimento da lógica de um programa antes da codificação.
+Resposta : Pseudocódigo é uma forma de descrever algoritmos utilizando uma linguagem intermediária entre a linguagem natural e a linguagem de programação. Sua finalidade é facilitar o entendimento da lógica de um programa antes da codificação.
 
 2. Qual das opções representa um pseudocódigo válido para somar dois números e exibir o resultado?
 
@@ -20,39 +19,32 @@ b) soma ← a + b
 
 3. Em pseudocódigo, o que representa a estrutura SE...ENTÃO...SENÃO?
 
-Resposta :
-Representa uma estrutura condicional, usada para executar diferentes comandos com base em uma condição lógica.
+Resposta : Representa uma estrutura condicional, usada para executar diferentes comandos com base em uma condição lógica.
 
 4. Qual a principal diferença entre linguagens de alto nível e baixo nível?
 
-Resposta :
-Linguagens de alto nível são mais próximas da linguagem humana e fáceis de entender e programar. Já linguagens de baixo nível são mais próximas da linguagem de máquina, como o assembly, e exigem conhecimento técnico mais detalhado do hardware.
+Resposta : Linguagens de alto nível são mais próximas da linguagem humana e fáceis de entender e programar. Já linguagens de baixo nível são mais próximas da linguagem de máquina, como o assembly, e exigem conhecimento técnico mais detalhado do hardware.
 
 5. Dê dois exemplos de linguagem de alto nível e dois de baixo nível.
 
-Resposta :
-Alto nível: Python, Java
+Resposta : Alto nível: Python, Java
 Baixo nível: Assembly, Linguagem de máquina (binária)
 
 6. Por que programadores preferem linguagens de alto nível na maioria dos projetos?
 
-Resposta :
-Porque são mais fáceis de escrever, ler e manter, além de oferecerem mais recursos de abstração e produtividade.
+Resposta : Porque são mais fáceis de escrever, ler e manter, além de oferecerem mais recursos de abstração e produtividade.
 
 7. O que é um vetor na programação?
 
-Resposta :
-É uma estrutura de dados unidimensional que armazena uma sequência de elementos do mesmo tipo, acessados por um índice.
+Resposta : É uma estrutura de dados unidimensional que armazena uma sequência de elementos do mesmo tipo, acessados por um índice.
 
 8. O que é uma matriz e como ela se diferencia de um vetor?
 
-Resposta :
-Uma matriz é uma estrutura de dados bidimensional, como uma tabela com linhas e colunas. Um vetor possui apenas uma dimensão.
+Resposta : Uma matriz é uma estrutura de dados bidimensional, como uma tabela com linhas e colunas. Um vetor possui apenas uma dimensão.
 
 9. Como acessar o terceiro elemento de um vetor chamado numeros?
 
-Resposta :
-numeros[2]
+Resposta : numeros[2]
 → A contagem geralmente começa em 0, então o terceiro elemento está no índice 2.
 
 10. Escreva um pseudocódigo que preencha um vetor de 5 posições com números digitados pelo usuário.
@@ -76,8 +68,7 @@ senão
         Escreva("Menor que 5")
 fimse
 
-Resposta :
-Saída: "Menor que 5"
+Resposta : Saída: "Menor que 5"
 → O valor 4 não é maior nem igual a 5, então entra no último senão.
 
 12. O pseudocódigo abaixo possui quantos laços de repetição aninhados?
@@ -88,8 +79,7 @@ Para i de 1 até 5 faça
     FimPara
 FimPara
 
-Resposta :
-2 laços aninhados
+Resposta : 2 laços aninhados
 → Um Para dentro de outro, totalizando dois níveis de repetição.
 
 13. COMO DEVO INICIALIZAR UMA SOMA, MULTIPLICAÇÃO E UMA PALAVRA NO PSEUDOCÓDIGO ?
