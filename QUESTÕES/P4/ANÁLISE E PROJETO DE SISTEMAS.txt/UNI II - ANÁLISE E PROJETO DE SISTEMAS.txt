@@ -1,0 +1,83 @@
+P4 - ANÁLISE E PROJETO DE SISTEMAS
+
+QUESTÕES
+
+1. O diagrama de classes é modelado de forma:
+a) Estruturada
+b) Funcional
+c) Orientada a objeto
+d) Linear
+
+Resposta : Letra C
+
+2. No diagrama de classes, a visão estática representa:
+a) O comportamento dinâmico dos objetos
+b) O fluxo de mensagens entre objetos
+c) A organização das classes no sistema
+d) A sequência de execução das atividades
+
+Resposta : Letra C
+
+3. Qual das opções abaixo indica a forma completa de representação de uma classe?
+a) Nome
+b) Nome + propriedades
+c) Nome + operações
+d) Nome + propriedades + operações
+
+Resposta : Letra D
+
+4. A visibilidade de um atributo indicada com o símbolo “#” significa:
+a) Público
+b) Privado
+c) Protegido
+d) Estático
+
+Resposta : Letra C
+
+5. Na agregação, podemos afirmar que:
+a) A parte não existe sem o todo
+b) O todo controla o ciclo de vida da parte
+c) A parte existe independentemente do todo
+d) É uma relação de generalização
+
+Resposta : Letra C
+
+6. No contexto dos diagramas UML, a composição indica que:
+a) O todo e a parte são independentes
+b) O todo controla o ciclo de vida da parte
+c) É uma relação entre classes abstratas
+d) Não há vínculo entre os objetos
+
+Resposta : Letra B
+
+7. No diagrama de atividades, o símbolo de losango é utilizado para representar:
+a) Atividade
+b) Decisão
+c) Raia
+d) Estado final
+
+Resposta : Letra B
+
+8. As setas contínuas entre atividades em um diagrama representam:
+a) Bifurcação
+b) Transições
+c) Decisões
+d) Restrições
+
+Resposta : Letra B
+
+9. A bifurcação e união em um diagrama de atividades são usadas para:
+a) Dividir e sincronizar fluxos paralelos
+b) Definir o início e o fim do processo
+c) Excluir atividades redundantes
+d) Representar associações entre classes
+
+Resposta : Letra A
+
+10. As raias em um diagrama de atividades servem para:
+a) Indicar as decisões do sistema
+b) Mostrar as classes abstratas
+c) Organizar logicamente as atividades por unidade de negócio
+d) Representar apenas atividades automáticas do sistema
+
+Resposta : Letra C
