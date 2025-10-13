@@ -1,0 +1,83 @@
+P4 - TÓPICOS DE TI 
+
+QUESTÕES
+
+1. Para criar um novo projeto React (JavaScript + CSS) no Visual Studio Code, o comando correto é:
+a) npm install react nome_da_pasta
+b) npx create-react-app nome_da_pasta
+c) npm create vite@latest nome_da_pasta
+d) react new nome_da_pasta
+
+Resposta : Letra B
+
+2. Após criar um projeto com create-react-app, o comando utilizado para executar o projeto e abrir o navegador é:
+a) npm build
+b) npm dev
+c) npm start
+d) npm run react
+
+Resposta : Letra C
+
+3. Ao criar um projeto com Vite + React + TypeScript, o usuário deve:
+a) Escolher o framework React e a variante TypeScript
+b) Escolher o framework Angular e a variante JavaScript
+c) Escolher o framework Vue e marcar “Yes” para experimental
+d) Instalar apenas o Tailwind primeiro
+
+Resposta : Letra A
+
+4. O TailwindCSS é instalado com o comando:
+a) npm install tailwindcss vite
+b) npm install tailwindcss @tailwindcss/vite
+c) npx tailwind vite install
+d) npm start tailwindcss
+
+Resposta : Letra B
+
+5. O arquivo vite.config.ts deve conter:
+a) Apenas o código HTML da aplicação
+b) A importação e uso do plugin TailwindCSS
+c) O código CSS do projeto
+d) Somente o comando npm run dev
+
+Resposta : Letra B
+
+6. O DOM (Document Object Model) é:
+a) Um sistema de hospedagem de sites
+b) Um padrão de manipulação de documentos HTML
+c) Uma linguagem de marcação para JavaScript
+d) Uma ferramenta de compilação de CSS
+
+Resposta : Letra B
+
+7. O DOM permite que o JavaScript:
+a) Exclua e crie arquivos no servidor
+b) Altere o conteúdo e estilo dos elementos da página
+c) Faça backup automático de dados
+d) Gere arquivos CSS automaticamente
+
+Resposta : Letra B
+
+8. As props em React são:
+a) Funções que retornam componentes
+b) Argumentos enviados do componente pai para o filho
+c) Variáveis globais acessadas em todo o projeto
+d) Métodos usados apenas para estilizar componentes
+
+Resposta : Letra B
+
+9. O useState em React serve para:
+a) Criar novos componentes
+b) Importar bibliotecas externas
+c) Armazenar e atualizar informações que mudam com o tempo
+d) Fazer o roteamento entre páginas
+
+Resposta : Letra C 
+
+10. Em React, a programação declarativa significa:
+a) Dizer “como fazer” algo passo a passo
+b) Descrever o que se deseja obter (o resultado esperado)
+c) Criar funções sem retorno
+d) Executar comandos diretamente no DOM
+
+Resposta : Letra B
