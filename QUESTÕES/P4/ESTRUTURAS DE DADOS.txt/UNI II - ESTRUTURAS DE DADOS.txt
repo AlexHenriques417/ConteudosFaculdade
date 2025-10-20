@@ -81,3 +81,83 @@ c) A parte não existe sem o todo
 d) Cada parte tem seu próprio ciclo de vida
 
 Resposta : Letra C
+
+11. A hierarquia de dependência serve para:
+a) Determinar o tamanho de uma árvore binária
+b) Identificar quais entidades são subordinadas a outras
+c) Calcular a altura de uma árvore
+d) Organizar a ordem das operações matemáticas
+
+Resposta : Letra B
+
+12. O que é uma floresta em estrutura de dados?
+a) Uma árvore com muitos galhos
+b) Conjunto de árvores binárias balanceadas
+c) Conjunto de zero ou mais árvores disjuntas, sem pontos em comum
+d) Uma árvore com grau máximo igual a 3
+
+Resposta : Letra C
+
+13. Em uma árvore binária de busca (ABB), os elementos armazenados à esquerda de um nó pai são:
+a) Maiores que o nó pai
+b) Iguais ao nó pai
+c) Menores que o nó pai
+d) Aleatórios
+
+Resposta : Letra C
+
+14. A altura de uma árvore é definida como:
+a) A distância da raiz até o primeiro nó
+b) O número total de nós
+c) O maior nível alcançado por alguma das folhas
+d) O caminho mais curto entre dois nós
+
+Resposta : Letra C
+
+15. Uma árvore está balanceada quando:
+a) Todos os nós possuem dois filhos
+b) Todas as folhas estão à mesma distância da raiz
+c) O número de folhas é igual ao número de níveis
+d) A raiz tem grau máximo 2
+
+Resposta : Letra B
+
+16. A altura (H) e o número total de nós (N) de uma árvore binária completa estão relacionados pela fórmula:
+a) N = H² + 1
+b) N = 2H - 1
+c) N = 2^H - 1
+d) N = H × 2
+
+Resposta : Letra C
+
+17. O nível de um nó em uma árvore é:
+a) A distância do nó até a raiz
+b) A quantidade de filhos que o nó possui
+c) Sempre o mesmo que sua profundidade
+d) O número de folhas que ele gera
+
+Resposta : Letra A
+
+18. O grau de uma árvore representa:
+a) O número total de níveis
+b) O maior grau (número de filhos) de um nó dessa árvore
+c) O número de folhas existentes
+d) A profundidade máxima da raiz
+
+Resposta : Letra B
+
+19. Uma árvore degenerada é aquela em que:
+a) Todos os nós têm dois filhos
+b) O número de níveis é igual ao número de nós
+c) As folhas estão balanceadas
+d) Não possui raiz
+
+Resposta : Letra B
+
+20. A quantidade de nós em um determinado nível (H) de uma árvore binária é dada por:
+a) 2^(H-1)
+b) H²
+c) H × 2
+d) 2^H - 1
+
+Resposta : Letra A
