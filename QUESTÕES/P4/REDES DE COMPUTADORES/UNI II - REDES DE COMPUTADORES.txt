@@ -1,0 +1,161 @@
+P4 - REDES DE COMPUTADORES
+
+1. O protocolo HTTP é considerado “sem estado” porque:
+A. Ele armazena informações de sessões anteriores
+B. Ele depende de conexões TCP persistentes
+C. Ele não mantém informações sobre transações anteriores
+D. Ele salva automaticamente os cookies dos usuários
+
+Resposta : Letra C
+
+2. Protocolos que mantêm estado são geralmente:
+A. Mais simples e rápidos
+B. Mais complexos
+C. Menos seguros
+D. Sem necessidade de cookies
+
+Resposta : Letra B
+
+3. Os cookies servem principalmente para:
+A. Armazenar o endereço IP do servidor
+B. Manter o estado entre cliente e servidor
+C. Diminuir o tempo de resposta da rede
+D. Enviar mensagens SMTP
+
+Resposta : Letra B
+
+4. Qual dos itens abaixo não é um componente necessário para o funcionamento dos cookies:
+A. Linha de cabeçalho na resposta do servidor
+B. Arquivo de cookie no cliente
+C. Banco de dados no servidor
+D. Servidor DNS local
+
+Resposta : Letra D
+
+5. Os cookies podem ser utilizados para todas as funções abaixo, exceto:
+A. Autorização de usuários
+B. Recomendação de conteúdo
+C. Reduzir ruído em cabos de rede
+D. Carrinhos de compras
+
+Resposta : Letra C
+
+6. Sobre privacidade, pode-se afirmar que:
+A. Cookies não armazenam informações pessoais
+B. Cookies permitem que sites aprendam muito sobre o usuário
+C. Cookies são usados apenas em sites bancários
+D. Cookies bloqueiam o rastreamento online
+
+Resposta : Letra B
+
+7. O cache web tem como principal objetivo:
+A. Substituir o servidor DNS
+B. Evitar o uso de cookies
+C. Reduzir o tempo de resposta e o tráfego de rede
+D. Impedir o acesso de usuários não autorizados
+
+Resposta : Letra C
+
+8. Quando o objeto já está armazenado no cache, o que ocorre:
+A. O cache consulta novamente o servidor de origem
+B. O cache retorna o objeto diretamente ao cliente
+C. O servidor cria um novo ID
+D. O navegador apaga o cache
+
+Resposta : Letra B
+
+9. No cache de navegador com GET condicional, o cliente:
+A. Especifica a data da cópia armazenada
+B. Solicita novos objetos sempre
+C. Não envia cabeçalhos HTTP
+D. Bloqueia a resposta do servidor
+
+Resposta : Letra A
+
+10. O protocolo SMTP é usado para:
+A. Receber emails no servidor
+B. Enviar mensagens de email entre servidores
+C. Traduzir nomes de domínio
+D. Gerenciar cookies de email
+
+Resposta : Letra B
+
+11. O SMTP utiliza qual protocolo de transporte:
+A. UDP
+B. ICMP
+C. TCP
+D. HTTP
+
+Resposta : Letra C
+
+12. A sequência correta das fases da transferência SMTP é:
+A. Saudação → Fechamento → Transferência
+B. Fechamento → Saudação → Transferência
+C. Saudação → Transferência → Fechamento
+D. Transferência → Fechamento → Saudação
+
+Resposta : Letra C
+
+13. A diferença principal entre HTTP e SMTP é que:
+A. HTTP puxa dados; SMTP empurra dados
+B. Ambos empurram dados
+C. HTTP e SMTP funcionam de forma idêntica
+D. SMTP puxa e HTTP empurra
+
+Resposta : Letra A
+
+14. Para recuperar emails do servidor, utiliza-se:
+A. SMTP
+B. FTP
+C. IMAP
+D. DNS
+
+Resposta : Letra C
+
+15. O DNS tem como função principal:
+A. Traduzir nomes de domínio em endereços IP
+B. Gerar cookies para sites
+C. Enviar emails entre servidores
+D. Gerenciar arquivos locais do navegador
+
+Resposta : Letra A
+
+16. Qual é uma das razões para não centralizar o DNS:
+A. Economia de energia
+B. Único ponto de falha e alto tráfego
+C. Redução de latência
+D. Evitar redundância
+
+Resposta : Letra B
+
+17. Na hierarquia do DNS, a ordem correta é:
+A. TLD → Raiz → Autoridade
+B. Raiz → TLD → Autoridade
+C. Autoridade → TLD → Raiz
+D. Raiz → Autoridade → TLD
+
+Resposta : Letra B
+
+18. O tipo de registro A no DNS representa:
+A. Endereço de email
+B. Endereço IP
+C. Nome canônico
+D. Servidor de nomes
+
+Resposta : Letra B
+
+19. Na consulta iterativa, o cliente:
+A. Passa por todos os servidores obrigatoriamente
+B. Consulta o servidor local e recebe indicações de outros
+C. Envia tudo de volta ao servidor raiz
+D. Não utiliza cache
+
+Resposta : Letra B
+
+20. O cache DNS é utilizado para:
+A. Armazenar temporariamente mapeamentos de nome e IP
+B. Armazenar cookies de sessão
+C. Guardar mensagens SMTP
+D. Substituir o servidor de email
+
+Resposta : Letra A
