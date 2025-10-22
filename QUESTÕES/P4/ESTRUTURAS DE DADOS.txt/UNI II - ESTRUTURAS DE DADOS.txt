@@ -161,3 +161,91 @@ c) H × 2
 d) 2^H - 1
 
 Resposta : Letra A
+
+21. A estrutura abaixo representa corretamente um nó de uma árvore binária:
+
+estrutura No {
+   int valor;
+   No esquerda;
+   No direita;
+}
+
+O que essa estrutura permite fazer?
+A. Criar uma lista linear
+B. Criar uma fila encadeada
+C. Criar um nó e gerar a árvore
+D. Criar apenas a raiz sem filhos
+
+Resposta : Letra C
+
+22. Se a árvore estiver vazia, o que deve ser feito ao inserir o primeiro elemento?
+A. Inserir o valor na direita da raiz
+B. Criar a árvore e o primeiro nó
+C. Aguardar outro valor ser inserido
+D. Pular a inserção
+
+Resposta : Letra B
+
+23. Quando o valor a ser inserido for menor que o valor do nó atual, ele deve ser inserido:
+A. Na direita do nó atual
+B. Na esquerda do nó atual
+C. Na raiz da árvore
+D. No último nó da direita
+
+Resposta : Letra B
+
+24. No percurso em ordem (em-ordem), a sequência correta de visitação dos nós é:
+A. Raiz, Esquerda, Direita
+B. Direita, Raiz, Esquerda
+C. Esquerda, Raiz, Direita
+D. Esquerda, Direita, Raiz
+
+Resposta : Letra C
+
+25. O percurso pré-ordem segue a seguinte sequência:
+A. Raiz, Esquerda, Direita
+B. Esquerda, Direita, Raiz
+C. Esquerda, Raiz, Direita
+D. Direita, Esquerda, Raiz
+
+Resposta : Letra A
+
+26. O percurso pós-ordem visita os nós na seguinte ordem:
+A. Raiz, Direita, Esquerda
+B. Esquerda, Direita, Raiz
+C. Direita, Esquerda, Raiz
+D. Esquerda, Raiz, Direita
+
+Resposta : Letra B
+
+27. O percurso em largura (busca em nível) tem como principal característica:
+A. Utiliza pilha
+B. Percorre por níveis, da esquerda para a direita
+C. Utiliza recursão
+D. Visita primeiro as folhas da árvore
+
+Resposta : Letra B
+
+28. Para realizar a busca em nível, é necessário usar:
+A. Pilha
+B. Fila
+C. Vetor
+D. Lista circular
+
+Resposta : Letra B
+
+29. Ao deletar um nó folha, o que acontece?
+A. É necessário reorganizar toda a árvore
+B. O nó é apenas removido, sem realocação
+C. O nó da direita assume o lugar
+D. A raiz é substituída
+
+Resposta : Letra B
+
+30. Quando se deleta um nó com dois filhos, o procedimento correto é:
+A. Substituir o nó por qualquer outro valor
+B. Deletar a árvore inteira
+C. Escolher um lado e usar o maior valor desse lado para substituir o nó removido
+D. Apenas ignorar a remoção
+
+Resposta : Letra C
