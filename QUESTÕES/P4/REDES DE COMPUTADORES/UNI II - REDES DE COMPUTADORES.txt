@@ -159,3 +159,48 @@ C. Guardar mensagens SMTP
 D. Substituir o servidor de email
 
 Resposta : Letra A
+
+21. Sobre a arquitetura P2P (Peer-to-Peer), é correto afirmar que:
+
+a) Depende de um servidor central sempre ativo para coordenar a comunicação.
+b) Os pares se comunicam diretamente sem precisar de um servidor central.
+c) Os clientes nunca mudam de endereço IP.
+d) Cada cliente apenas recebe dados e nunca envia.
+
+Resposta : Letra bancários
+
+22. A principal característica da autoescalabilidade em sistemas P2P é que:
+
+a) Novos pares aumentam apenas a demanda, sem acrescentar capacidade.
+b) O número de pares não afeta o desempenho do sistema.
+c) Novos pares trazem nova capacidade de atendimento e novas demandas.
+d) O sistema fica mais lento conforme mais pares entram.
+
+Resposta : Letra C
+
+23. No modelo cliente-servidor, o tempo de distribuição de arquivos depende do fato de que:
+
+a) O servidor envia apenas uma cópia do arquivo e os clientes compartilham entre si.
+b) O servidor deve enviar sequencialmente N cópias do mesmo arquivo para os clientes.
+c) Os clientes baixam pedaços uns dos outros.
+d) Todos os clientes têm a mesma taxa de upload.
+
+Resposta : Letra B
+
+24. No BitTorrent, o processo de solicitação de pedaços funciona da seguinte forma:
+
+a) Os pares recebem os pedaços sempre na mesma ordem.
+b) Cada par solicita pedaços aleatórios, sem verificar o que já tem.
+c) Alice pede aos pares a lista de pedaços disponíveis e solicita primeiro os mais raros.
+d) O rastreador (tracker) envia todos os pedaços diretamente para Alice.
+
+Resposta : Letra C
+
+25. O papel do tracker (rastreador) no sistema BitTorrent é:
+
+a) Armazenar e distribuir diretamente todos os pedaços do arquivo.
+b) Controlar a velocidade de upload e download dos pares.
+c) Rastrear e manter a lista de pares participando do torrent.
+d) Dividir o arquivo em pedaços de 256 KB.
+
+Resposta : Letra C
