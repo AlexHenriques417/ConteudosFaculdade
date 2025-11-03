@@ -204,3 +204,93 @@ c) Rastrear e manter a lista de pares participando do torrent.
 d) Dividir o arquivo em pedaços de 256 KB.
 
 Resposta : Letra C
+
+26. A camada de aplicação é responsável por:
+
+a) Definir os endereços físicos dos dispositivos.
+b) Fornecer comunicação lógica entre hosts de rede.
+c) Permitir a interação direta entre os processos de aplicação.
+d) Controlar o congestionamento da rede.
+
+Resposta : Letra C
+
+27. Sobre as aplicações P2P, é correto afirmar que:
+
+a) Dependem de um servidor central sempre ativo.
+b) São compostas por sistemas finais que se comunicam diretamente.
+c) Não possuem escalabilidade.
+d) Somente funcionam em redes locais.
+
+Resposta : Letra B
+
+28. A principal função das CDNs (Content Delivery Networks) é:
+
+a) Reduzir o tamanho dos arquivos transmitidos.
+b) Controlar o roteamento entre redes locais.
+c) Distribuir o conteúdo entre servidores próximos aos usuários, evitando congestionamento.
+d) Garantir a entrega de pacotes em ordem.
+
+Resposta : Letra C
+
+29. No contexto de multimídia, o vídeo digital é composto por:
+
+a) Um fluxo de áudio comprimido.
+b) Uma sequência de imagens exibidas a ritmo constante.
+c) Um conjunto de arquivos independentes de pixel.
+d) Somente quadros codificados em MPEG4.
+
+Resposta : Letra B
+
+30. No DASH (Dynamic Adaptive Streaming over HTTP):
+
+a) O servidor escolhe a taxa de codificação.
+b) O cliente escolhe a qualidade conforme a largura de banda disponível.
+c) Todos os pedaços do vídeo têm a mesma taxa de codificação.
+d) O cliente precisa baixar o vídeo completo antes de assistir.
+
+Resposta : Letra B
+
+31. Em relação ao modelo de distribuição “Enter Deep” das CDNs, é correto afirmar que:
+
+a) Coloca servidores próximos dos usuários, dentro das redes de acesso.
+b) Utiliza poucos clusters centrais, longe dos usuários.
+c) É o método adotado exclusivamente pela Netflix.
+d) Reduz a cobertura geográfica para aumentar o desempenho.
+
+Resposta : Letra A
+
+32. Sobre os protocolos da camada de transporte, marque a alternativa correta:
+
+a) TCP é não confiável e sem controle de fluxo.
+b) UDP é orientado à conexão e garante a entrega dos pacotes.
+c) TCP fornece comunicação confiável e em ordem entre emissor e receptor.
+d) Ambos os protocolos garantem retransmissão automática.
+
+Resposta : Letra C
+
+33. O processo de multiplexação e demultiplexação permite:
+
+a) Enviar e receber dados de várias aplicações simultaneamente.
+b) Reduzir o tamanho dos pacotes de rede.
+c) Estabelecer rotas dinâmicas entre hosts.
+d) Controlar a largura de banda disponível.
+
+Resposta : Letra A
+
+34. O protocolo UDP é amplamente utilizado em:
+
+a) Aplicações que exigem confiabilidade total, como transferência bancária.
+b) Transmissões de vídeo e DNS, onde pequenas perdas são aceitáveis.
+c) Aplicações com grandes volumes de dados que não toleram perda.
+d) Redes que exigem controle de congestionamento.
+
+Resposta : Letra B
+
+35. No gerenciamento de conexão TCP, o handshake de três vias serve para:
+
+a) Encerrar a conexão entre cliente e servidor.
+b) Estabelecer a conexão e sincronizar os números de sequência.
+c) Trocar chaves de criptografia entre os nós da rede.
+d) Controlar o congestionamento antes do envio de dados.
+
+Resposta : Letra B
