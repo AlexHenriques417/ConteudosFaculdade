@@ -81,3 +81,163 @@ c) Organizar logicamente as atividades por unidade de negócio
 d) Representar apenas atividades automáticas do sistema
 
 Resposta : Letra C
+
+11. O uso excessivo e descontrolado de padrões pode gerar:
+A) Códigos mais simples e eficientes.
+B) Projetos sobrecarregados.
+C) Redução de complexidade.
+D) Maior reuso automático de código.
+
+Resposta : Letra B
+
+12. O que os anti-padrões representam no desenvolvimento de software?
+A) Práticas de sucesso em projetos.
+B) Modelos de reuso eficientes.
+C) Erros comuns e falhas de projeto.
+D) Regras para documentação de código.
+
+Resposta : Letra C
+
+13. Qual elemento de um padrão de software descreve quando e onde aplicá-lo?
+A) Nome.
+B) Solução.
+C) Problema.
+D) Consequências.
+
+Resposta : Letra C
+
+14. Entre os elementos essenciais de um padrão de software, qual descreve os impactos e resultados da aplicação?
+A) Problema.
+B) Solução.
+C) Consequências.
+D) Exemplos.
+
+Resposta : Letra C
+
+15. Um dos principais benefícios do uso de nomes padronizados é:
+A) Aumentar o código-fonte.
+B) Simplificar a documentação e a comunicação.
+C) Eliminar a necessidade de diagramas.
+D) Dificultar o entendimento entre equipes.
+
+Resposta : Letra B
+
+16. O significado da sigla GRASP é:
+A) General Responsibility Assignment Software Patterns.
+B) Global Responsible Application Structure Pattern.
+C) Generic Reuse Architecture System Pattern.
+D) Graphic Resource Analysis Structure Process.
+
+Resposta : Letra A
+
+17. Segundo o padrão Creator, qual classe deve criar uma nova instância de outra?
+A) Qualquer classe do sistema.
+B) A classe que agrega ou usa os objetos criados.
+C) Somente a classe controladora.
+D) A classe de interface do usuário.
+
+Resposta : Letra B
+
+18. O padrão Low Coupling tem como objetivo principal:
+A) Aumentar a dependência entre classes.
+B) Reduzir dependências e facilitar o reuso.
+C) Ampliar a complexidade do sistema.
+D) Agrupar todas as funções em uma única classe.
+
+Resposta : Letra B
+
+19. O padrão High Cohesion recomenda que:
+A) Uma classe tenha muitas funções distintas.
+B) Uma classe concentre todas as ações do sistema.
+C) Cada classe tenha um propósito claro e bem definido.
+D) Todas as classes tenham as mesmas responsabilidades.
+
+Resposta : Letra C
+
+20. Qual é a função principal do padrão Controller?
+A) Controlar o acesso ao banco de dados.
+B) Receber e coordenar as solicitações de usuários.
+C) Gerar relatórios automáticos.
+D) Executar a criação de objetos.
+
+Resposta : Letra B
+
+21. O uso excessivo e descontrolado de padrões em um projeto de software pode causar:
+A) Melhor desempenho e simplicidade.
+B) Projetos sobrecarregados e complexos.
+C) Maior reuso e eficiência.
+D) Menor necessidade de treinamento.
+
+Resposta : Letra B
+
+22. Para utilizar padrões de forma adequada, os desenvolvedores precisam:
+A) Ignorar catálogos e seguir a intuição.
+B) Tempo, acesso a catálogos e treinamento.
+C) Evitar estudar exemplos práticos.
+D) Criar novos padrões para cada projeto.
+
+Resposta : Letra B
+
+23. O que são anti-padrões?
+A) Padrões que melhoram o desempenho do software.
+B) Soluções ideais para qualquer tipo de sistema.
+C) Erros comuns e práticas que levam a falhas em projetos.
+D) Técnicas avançadas de modelagem de software.
+
+Resposta : Letra C
+
+24. Qual é a função do “problema” em um padrão de software?
+A) Mostrar o código pronto para uso.
+B) Descrever quando e onde aplicar o padrão.
+C) Apresentar os resultados da aplicação.
+D) Definir nomes alternativos para o padrão.
+
+Resposta : Letra B
+
+25. O uso de nomes padronizados em padrões de projeto facilita:
+A) A comunicação entre desenvolvedores e a documentação.
+B) O aumento da complexidade do código.
+C) A criação de novos padrões sem referência.
+D) O isolamento das equipes de desenvolvimento.
+
+Resposta : Letra A
+
+26. A sigla GRASP significa:
+A) General Responsibility Assignment Software Patterns.
+B) Global Resource Allocation System Process.
+C) General Resource Analysis Software Project.
+D) Graphic Representation and Structure Pattern.
+
+Resposta : Letra A
+
+27. No padrão Creator, quem deve ser responsável por criar objetos?
+A) A classe que contém ou usa os objetos a serem criados.
+B) A interface do usuário.
+C) O banco de dados do sistema.
+D) Qualquer classe independente.
+
+Resposta : Letra A
+
+28. O principal objetivo do padrão Low Coupling é:
+A) Aumentar a ligação entre classes.
+B) Reduzir dependências e facilitar o reuso.
+C) Centralizar todas as funções em uma classe.
+D) Eliminar o uso de interfaces.
+
+Resposta : Letra B 
+
+29. O padrão High Cohesion recomenda que:
+A) Uma classe tenha várias funções não relacionadas.
+B) As classes assumam múltiplas responsabilidades.
+C) Cada classe tenha um propósito único e bem definido.
+D) As responsabilidades sejam concentradas em um único objeto.
+
+Resposta : Letra C
+
+30. O papel principal do padrão Controller é:
+A) Armazenar os dados do sistema.
+B) Receber solicitações dos usuários e coordenar ações internas.
+C) Executar cálculos matemáticos.
+D) Criar instâncias de classes auxiliares.
+
+Resposta : Letra B
