@@ -294,3 +294,48 @@ c) Trocar chaves de criptografia entre os nós da rede.
 d) Controlar o congestionamento antes do envio de dados.
 
 Resposta : Letra B
+
+36. A função principal da camada de rede é:
+
+a) Garantir a entrega sem erros dos pacotes.
+b) Transportar segmentos do emissor ao receptor através de datagramas.
+c) Controlar o fluxo de dados entre processos.
+d) Converter sinais analógicos em digitais.
+
+Resposta : Letra B
+
+37. Qual das alternativas descreve corretamente a diferença entre encaminhamento e roteamento?
+
+a) O encaminhamento ocorre em toda a rede; o roteamento, apenas localmente.
+b) O encaminhamento escolhe a rota completa; o roteamento apenas envia o pacote.
+c) O encaminhamento move pacotes entre enlaces; o roteamento define o caminho da origem ao destino.
+d) O encaminhamento cria tabelas de rotas; o roteamento move pacotes.
+
+Resposta : Letra C
+
+38. O plano de dados em um roteador tem como principal função:
+
+a) Definir a rota global dos pacotes na rede.
+b) Calcular as tabelas de roteamento entre os dispositivos.
+c) Determinar como o datagrama que chega em uma porta de entrada é encaminhado para uma porta de saída.
+d) Estabelecer políticas de controle de congestionamento na rede.
+
+Resposta : Letra C
+
+39. No modelo de serviço de “melhor esforço” da Internet, o que é garantido?
+
+a) Entrega no tempo certo e na ordem correta.
+b) Largura de banda mínima garantida.
+c) Nenhuma garantia de tempo, ordem ou entrega — apenas o esforço para entregar.
+d) Entrega garantida com menos de 40 ms de atraso.
+
+Resposta : Letra C
+
+40. O plano de controle de rede definida por software (SDN) caracteriza-se por:
+
+a) Cada roteador calcular suas próprias rotas de forma independente.
+b) Controlador remoto que computa e instala tabelas de encaminhamento nos roteadores.
+c) Transmissão de pacotes sem controle centralizado.
+d) Uso exclusivo de protocolos estáticos e fixos.
+
+Resposta : Letra B
